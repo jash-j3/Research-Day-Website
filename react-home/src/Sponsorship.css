@@ -2,22 +2,24 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    
   }
   
   .sponsorship-slab {
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 10px;
   }
   
   .gold {
-    background-color: #ffd700; /* gold */
+    background-color: #ffd700; 
   }
   
   .silver {
-    background-color: #c0c0c0; /* silver */
+    background-color: #c0c0c0; 
   }
   
   .bronze {
-    background-color: #cd7f32; /* bronze */
+    background-color: #cd7f32;
   }

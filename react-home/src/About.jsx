@@ -6,9 +6,7 @@ const logo = require("../src/assets/logoiith.png");
 function About() {
   return (
     <div className="about-container">
-      <h1>
-        About
-      </h1>
+ 
       <div className="message">
         <img
           className="profile-img"

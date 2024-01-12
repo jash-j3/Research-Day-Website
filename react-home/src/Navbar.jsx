@@ -14,7 +14,7 @@ function Navbar() {
           <div className="itm">About</div>
           <div className="itm">Programme</div>
           <div className="itm">Registeration</div>
-          <Link to="/" className="itm">Sponsorship</Link>
+          <Link to="/Sponsorship" className="itm">Sponsorship</Link>
         </div>
       </div>
     </div>
