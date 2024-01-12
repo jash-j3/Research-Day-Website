@@ -1,25 +1,42 @@
 .sponsorship-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    
-  }
-  
-  .sponsorship-slab {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-  }
-  
-  .gold {
-    background-color: #ffd700; 
-  }
-  
-  .silver {
-    background-color: #c0c0c0; 
-  }
-  
-  .bronze {
-    background-color: #cd7f32;
-  }
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.sponsorship-slab {
+  position: relative;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  perspective: 1000px;
+  transition: transform 0.0s;
+  margin-top: 15px;
+}
+
+.sponsorship-slab:hover {
+  transform: rotateY(10deg);
+}
+
+.gold {
+  background-color: #7a7a7a; 
+}
+
+.silver {
+  background-color: #c0c0c0; 
+}
+
+.bronze {
+  background-color: #7a7a7a;
+}
+
+.diamond {
+  background-color: #c0c0c0;
+}
+
+.platinum {
+  background-color: #8e8e8e;
+}
