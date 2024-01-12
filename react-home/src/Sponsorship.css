@@ -1,0 +1,23 @@
+.sponsorship-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sponsorship-slab {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .gold {
+    background-color: #ffd700; /* gold */
+  }
+  
+  .silver {
+    background-color: #c0c0c0; /* silver */
+  }
+  
+  .bronze {
+    background-color: #cd7f32; /* bronze */
+  }

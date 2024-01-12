@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 const logo = require("../src/assets/logoiith.png");
+
 
 function Navbar() {
   return (
@@ -12,7 +14,7 @@ function Navbar() {
           <div className="itm">About</div>
           <div className="itm">Programme</div>
           <div className="itm">Registeration</div>
-          <div className="itm">Events & Schedule</div>
+          <Link to="/" className="itm">Sponsorship</Link>
         </div>
       </div>
     </div>
