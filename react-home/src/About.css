@@ -1,0 +1,46 @@
+.abt-main {
+  color: #000;
+  font-family: Fasthand;
+  font-size: 4.0345rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.abt-item-txt {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.abt-full {
+  text-align: left;
+  padding: 0.5% 2%;
+}
+
+.abt-itm{
+    margin-top: 2%;
+}
+
+.abt-img-txt img {
+  border-radius: 50%;
+}
+
+.abt-img-txt p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.abt-img-txt {
+  padding: 1% 0 2%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
