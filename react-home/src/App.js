@@ -10,19 +10,12 @@ import Sponsorship from './Sponsorship';
 
 function App() {
   return (
-  <Router>
     <div className="App">
-      <Navbar />
-        <Routes>
-          <Route path="/Sponsorship" element={<Sponsorship />} />
-        </Routes>
       <Cover />
       <About />
       <Events />
       <Footer />
-      
     </div>
-    </Router>
   
   );
 }
