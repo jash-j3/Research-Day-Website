@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.about-container {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  width: 80%;
+  max-width: 800px;
+  text-align: left;
+  background-color: rgb(4, 26, 54);
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.message:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.message p {
+  color: #666;
+}

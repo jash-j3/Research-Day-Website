@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  padding: 1.5% 8%;
+  align-items: center;
+}
+
+.iithlogo {
+  width: 3.27575rem;
+  height: 3.375rem;
+}
+
+.nav-items,
+.navtxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navtxt {
+  gap: 2.2rem;
+  padding-left: 2.5rem;
+}
+
+.itm {
+  color: #1e1e1e;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
