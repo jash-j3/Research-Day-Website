@@ -1,13 +1,7 @@
 import React from "react";
 import "./About.css";
-<<<<<<< HEAD
-const logo = require("../src/assets/khoj.png");
-
-
-=======
 const logo = require("../src/assets/logoiith.png");
 // const bg = require("../src/assets/bg-iith.png");
->>>>>>> a56d9f1 (major frontend changes)
 function About() {
   return (
     <div className="about-container">
