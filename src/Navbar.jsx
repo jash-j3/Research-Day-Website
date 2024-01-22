@@ -12,11 +12,11 @@ function Navbar() {
         <div class="nav-items">
           <img src={logo} alt="iith-logo" className="iithlogo" />
           <div className="navtxt">
-            <Link to="/" className="itm">Home</Link>
-            <Link to="/Aboutnav" className="itm">Events</Link>
-            <Link to="/Schedule" className="itm">Schedule</Link>
-            <Link to="/Registration" className="itm">Registration</Link>
-            <Link to="/Sponsorship" className="itm">Sponsorship</Link>
+            <Link to="/Research-Day-Website" className="itm">Home</Link>
+            <Link to="/Research-Day-Website/Aboutnav" className="itm">Events</Link>
+            <Link to="/Research-Day-Website/Schedule" className="itm">Schedule</Link>
+            <Link to="/Research-Day-Website/Registration" className="itm">Registration</Link>
+            <Link to="/Research-Day-Website/Sponsorship" className="itm">Sponsorship</Link>
           </div>
         </div>
       </div>
