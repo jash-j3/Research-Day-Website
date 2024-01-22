@@ -10,6 +10,8 @@ import Events from "./Events";
 import Footer from "./Footer";
 import Sponsorship from "./Sponsorship";
 import Registration from "./Registration";
+import Aboutnav from "./Aboutnav";
+import Schedule from "./Schedule";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -21,6 +23,8 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Navbar />}>
       <Route index element={<App />} />
+      <Route path="Aboutnav" element={<Aboutnav />} />
+      <Route path="Schedule" element={<Schedule />} />
       <Route path="Registration" element={<Registration />} />
       <Route path="Sponsorship" element={<Sponsorship />} />
     </Route>

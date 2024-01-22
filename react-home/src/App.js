@@ -6,6 +6,7 @@ import About from './About';
 import Events from './Events';
 import Footer from './Footer';
 import Sponsorship from './Sponsorship';
+import Aboutnav from './Aboutnav';
 
 
 function App() {

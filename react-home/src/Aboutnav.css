@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+.about{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Montserrat;
+   { /*  background-color: aliceblue; */ }
+
+
+}
+
+
+.subhead{
+    margin-top: 20px;
+    color: rgb(33, 33, 136);
+}
+
+.d1{
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px  black;
+    border-radius: 40px;
+    background-color: rgb(255, 251, 212);
+    box-shadow: 0 5px 5px 0 rgba(139, 134, 134, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.19);
+}
+
+.d2{
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px ;
+    border-radius: 40px;
+    background-color: rgb(255, 241, 212);
+    box-shadow: 0 5px 5px 0 rgba(139, 134, 134, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.19);
+
+}
+
+
+.d3{
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px  black;
+    border-radius: 40px;
+    background-color: rgb(255, 235, 212);
+    box-shadow: 0 5px 5px 0 rgba(139, 134, 134, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.19);
+
+}
+
+
+.kk{
+    background-color: rgb(253, 251, 248);
+    margin: 3px;
+    padding: 10px;
+    border: 1px black;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(139, 134, 134, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.19);
+}
+
+#hell{
+    
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(4, 26, 24);
+    border-top: 1px solid #ccc;
+  }
+  
+  #hell p{
+    color: #c13cc5;
+    margin: 0;
+  }

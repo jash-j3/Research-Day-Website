@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-const logo = require("../src/assets/logoiith.png");
+const logo = require("../src/assets/khoj.png");
 
 
 function About() {
