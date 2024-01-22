@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Research-Day-Website/static/css/main.48e49aaa.css",
+    "main.js": "/Research-Day-Website/static/js/main.44f3bc71.js",
+    "static/media/mainimg.png": "/Research-Day-Website/static/media/mainimg.96fb514cf639ebe14bed.png",
+    "static/media/khoj.png": "/Research-Day-Website/static/media/khoj.b5b7cd044373dceba484.png",
+    "static/media/bg-iith.jpeg": "/Research-Day-Website/static/media/bg-iith.bd376221ee22fcca6302.jpeg",
+    "static/media/c.png": "/Research-Day-Website/static/media/c.8b617a3d075b89d0e8ff.png",
+    "static/media/k.png": "/Research-Day-Website/static/media/k.59744ad2e44323ce12c5.png",
+    "static/media/b.png": "/Research-Day-Website/static/media/b.8bca44aeb3b5a78c0cf8.png",
+    "static/media/d.png": "/Research-Day-Website/static/media/d.6e9aac8e2517c4d919c3.png",
+    "static/media/j.png": "/Research-Day-Website/static/media/j.6d7271ccbbdddd1af279.png",
+    "static/media/l.png": "/Research-Day-Website/static/media/l.219cd9efe7c1286d8610.png",
+    "static/media/f.png": "/Research-Day-Website/static/media/f.5c03fca13dff84129ca1.png",
+    "static/media/a.png": "/Research-Day-Website/static/media/a.d97d7c39a067ea6f3202.png",
+    "static/media/g.png": "/Research-Day-Website/static/media/g.546b930e561e032eebc7.png",
+    "static/media/h.png": "/Research-Day-Website/static/media/h.44c6da6d09c512d691fa.png",
+    "static/media/e.png": "/Research-Day-Website/static/media/e.7a6e385f4700e3b76d64.png",
+    "static/media/i.png": "/Research-Day-Website/static/media/i.69be7099fdea65f9be39.png",
+    "index.html": "/Research-Day-Website/index.html",
+    "main.48e49aaa.css.map": "/Research-Day-Website/static/css/main.48e49aaa.css.map",
+    "main.44f3bc71.js.map": "/Research-Day-Website/static/js/main.44f3bc71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48e49aaa.css",
+    "static/js/main.44f3bc71.js"
+  ]
+}
