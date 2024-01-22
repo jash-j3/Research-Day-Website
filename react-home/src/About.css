@@ -1,12 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .about-container {
-  margin-top: 8px;
   display: flex;
+  flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
   font-family: Montserrat;
   box-shadow: 0 5px 5px 0 rgba(139, 134, 134, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.19);
 
+=======
+  background-image: url('../src/assets/bg-iith.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.black-bg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(23, 30, 58, 0.84);
+  padding: 2%;
+>>>>>>> a56d9f1 (major frontend changes)
 }
 
 .message {
@@ -15,17 +32,29 @@
   align-items: center;
   margin-bottom: 20px;
   padding: 20px;
+<<<<<<< HEAD
   border: 5px solid #ffffff;
+=======
+>>>>>>> a56d9f1 (major frontend changes)
   border-radius: 30px;
   width: 80%;
   max-width: 800px;
   text-align: left;
+<<<<<<< HEAD
   background-color: rgb(4, 26, 54);
   transition: transform 0.3s ease; 
 }
 
 .message:hover {
   transform: scale(1.1); 
+=======
+  background-color: rgb(0, 0, 0, 0.6);
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.message:hover {
+  transform: scale(1.03); /* Increase the size on hover */
+>>>>>>> a56d9f1 (major frontend changes)
 }
 
 .profile-img {
@@ -43,10 +72,15 @@
 }
 
 .message h2 {
-  color: #333;
+  color: #FDa172;
   margin-bottom: 10px;
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
 }
 
 .message p {
-  color: #666;
+  color:rgb(241, 210, 210);
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
+  line-height: 1.8rem;
 }
