@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Research-Day-Website/static/css/main.48e49aaa.css",
-    "main.js": "/Research-Day-Website/static/js/main.d99d30a2.js",
+    "main.css": "/Research-Day-Website/static/css/main.87b3013c.css",
+    "main.js": "/Research-Day-Website/static/js/main.6ba9082a.js",
     "static/media/mainimg.png": "/Research-Day-Website/static/media/mainimg.96fb514cf639ebe14bed.png",
     "static/media/khoj.png": "/Research-Day-Website/static/media/khoj.b5b7cd044373dceba484.png",
     "static/media/bg-iith.jpeg": "/Research-Day-Website/static/media/bg-iith.bd376221ee22fcca6302.jpeg",
@@ -18,11 +18,11 @@
     "static/media/e.png": "/Research-Day-Website/static/media/e.7a6e385f4700e3b76d64.png",
     "static/media/i.png": "/Research-Day-Website/static/media/i.69be7099fdea65f9be39.png",
     "index.html": "/Research-Day-Website/index.html",
-    "main.48e49aaa.css.map": "/Research-Day-Website/static/css/main.48e49aaa.css.map",
-    "main.d99d30a2.js.map": "/Research-Day-Website/static/js/main.d99d30a2.js.map"
+    "main.87b3013c.css.map": "/Research-Day-Website/static/css/main.87b3013c.css.map",
+    "main.6ba9082a.js.map": "/Research-Day-Website/static/js/main.6ba9082a.js.map"
   },
   "entrypoints": [
-    "static/css/main.48e49aaa.css",
-    "static/js/main.d99d30a2.js"
+    "static/css/main.87b3013c.css",
+    "static/js/main.6ba9082a.js"
   ]
 }
