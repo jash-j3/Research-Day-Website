@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { FaInstagram, FaLinkedin, FaGoogle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -42,13 +43,13 @@ function Footer() {
         <div className="footer-menu">
           <ul className="f-menu">
             <li>
-              <a href="/Research-Day-Website/">Home</a>
+            <Link to={"/Research-Day-Website/"}>Home</Link>
             </li>
             <li>
-              <a href="/Research-Day-Website/Registration">Register</a>
+            <Link to={"/Research-Day-Website/Registration"}>Register</Link>
             </li>
             <li>
-              <a href="/Research-Day-Website/Aboutnav">Events</a>
+              <Link to={"/Research-Day-Website/Aboutnav"}>Events</Link>
             </li>
           </ul>
         </div>
