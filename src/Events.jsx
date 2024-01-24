@@ -52,7 +52,7 @@ function Events() {
       <h1>Events</h1>
       <div style={{ textAlign: "center" }}>
         <div style={{
-          padding: "0 100px"
+          padding: "0 50px"
         }}>
           <Carousel
             data={data}

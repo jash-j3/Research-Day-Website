@@ -39,25 +39,23 @@ function Footer() {
         </ul>
       </div>
       <div className="footer-bottom">
-        <div className="footer-contr">
-          <p>
-            Copyright &copy; <a href="https://iith.dev">Lambda</a>{" "}
-          </p>
-          <p>Contributors Jash Jhatakia and Arin Kulkarni</p>
-        </div>
         <div className="footer-menu">
           <ul className="f-menu">
             <li>
-              <a href="">Home</a>
+              <a href="/Research-Day-Website/">Home</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a href="/Research-Day-Website/Registration">Register</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a href="/Research-Day-Website/Aboutnav">Events</a>
             </li>
           </ul>
         </div>
+        <p>Contributors Jash Jhatakia and Arin Kulkarni</p>
+        <p>
+          Copyright &copy; <a href="https://iith.dev">Lambda</a>{" "}
+        </p>
       </div>
     </footer>
   );

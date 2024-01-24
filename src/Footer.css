@@ -4,6 +4,7 @@
 footer {
   overflow-x: hidden;
   /* position: absolute; */
+  font-family: "Montserrat";
   bottom: 0;
   left: 0;
   right: 0;
@@ -18,7 +19,6 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  font-family: cursive;
 }
 .footer-content h3 {
   font-size: 2.1rem;
@@ -30,7 +30,7 @@ footer {
   max-width: 500px;
   margin: 10px auto;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 17px;
   color: #cacdd2;
 }
 .socials {
@@ -42,13 +42,6 @@ footer {
 }
 .socials li {
   margin: 0 10px;
-}
-
-.footer-contr {
-  display: flex;
-  gap: 40px;
-  font-family: "Montserrat";
-  font-size: 17px;
 }
 
 .socials a {
@@ -68,19 +61,25 @@ footer {
   color: aqua;
 }
 
+.f-menu{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
 .footer-bottom {
-  background: #000;
   width: 100vw;
   padding: 20px 35px;
-  font-size: 17px;
-  font-family: cursive;
+  font-size: 13px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Montserrat";
+  color: #cfd2d6;
 }
 
 .footer-bottom p a {
-  color: white;
+  color: #cfd2d6;
   text-decoration: none;
 }
 .footer-bottom span {
@@ -89,14 +88,12 @@ footer {
   font-weight: 200;
 }
 .footer-menu {
-  float: right;
   font-family: "Montserrat";
 }
 .footer-menu ul {
   display: flex;
 }
 .footer-menu ul li {
-  padding-right: 10px;
   display: block;
 }
 .footer-menu ul li a {
@@ -105,12 +102,4 @@ footer {
 }
 .footer-menu ul li a:hover {
   color: #27bcda;
-}
-
-@media (max-width: 500px) {
-  .footer-menu ul {
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
 }

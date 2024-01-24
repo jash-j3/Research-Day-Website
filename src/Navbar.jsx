@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
 import './Navbar.css';
@@ -13,8 +13,21 @@ function Navbar() {
         setIsNavExpanded(false);
     };
 
+    const handleOutsideClick = (event) => {
+      if (isNavExpanded && !event.target.closest(".navbar")) {
+          closeMenu();
+      }
+  };
+
+  useEffect(() => {
+      document.addEventListener('click', handleOutsideClick);
+      return () => {
+          document.removeEventListener('click', handleOutsideClick);
+      };
+  }, [isNavExpanded]); 
+
     return (
-        <div>
+        <div >
             <nav className="navbar">
                 <img src={logo} alt="iith-logo" className="iithlogo" />
                 <div className={`navtxt ${isNavExpanded ? "expanded" : ""}`}>

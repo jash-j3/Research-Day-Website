@@ -67,7 +67,8 @@
   .navtxt {
     flex-direction: column;
     position: absolute;
-    top: 5rem;
+    top: 4rem;
+    z-index: 1000;
     left: 0;
     right: 0;
     background-color: white;
@@ -85,4 +86,11 @@
     width: 2.5rem;
     height: 2.5rem;
   }
+
+  .footer-bottom{
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
 }
