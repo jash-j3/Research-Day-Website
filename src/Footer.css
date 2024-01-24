@@ -1,5 +1,5 @@
 .heart {
-  color: red;
+  color: #d946ef;
 }
 footer {
   overflow-x: hidden;
@@ -44,10 +44,10 @@ footer {
   margin: 0 10px;
 }
 
-.footer-contr{
+.footer-contr {
   display: flex;
   gap: 40px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 17px;
 }
 
@@ -90,7 +90,7 @@ footer {
 }
 .footer-menu {
   float: right;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 .footer-menu ul {
   display: flex;

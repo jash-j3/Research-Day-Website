@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -10,8 +10,9 @@
   display: flex;
   padding: 1.5% 8%;
   align-items: center;
-  box-shadow: 0 5px 5px 0 rgba(139, 134, 134, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.19);
-
+  box-shadow: 0 5px 5px 0 rgba(139, 134, 134, 0.2),
+    0 6px 20px 0 rgba(180, 180, 180, 0.19);
+  justify-content: space-between;
 }
 
 .iithlogo {
@@ -19,23 +20,69 @@
   height: 3.375rem;
 }
 
-.nav-items,
-.navtxt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.icon {
+  width: 1.5rem;
+  aspect-ratio: 1;
 }
 
 .navtxt {
+  display: flex;
   gap: 2.2rem;
-  padding-left: 2.5rem;
+  align-items: center;
+  transition: all 0.3s ease; /* Smooth transition for the hamburger menu */
+  transform-origin: top;
+  overflow: hidden;
+}
+
+.navtxt.expanded {
+  transform: scaleY(1);
+  height: auto; /* Adjust based on your content */
 }
 
 .itm {
   color: #1e1e1e;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  text-decoration: none; /* Removes underline from links */
+  transition: color 0.3s ease; /* Optional: Smooth transition for hover effects */
+}
+
+.itm:hover {
+  color: #0056b3; /* Optional: Change color on hover */
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navtxt {
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    transform: scaleY(0);
+  }
+
+  .navtxt.expanded {
+    display: flex;
+  }
+
+  .iithlogo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
