@@ -12,6 +12,8 @@ import Sponsorship from "./Sponsorship";
 import Registration from "./Registration";
 import Aboutnav from "./Aboutnav";
 import Schedule from "./Schedule";
+import Team from "./Team";
+
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -27,6 +29,7 @@ const router = createBrowserRouter(
       <Route path="Schedule" element={<Schedule />} />
       <Route path="Registration" element={<Registration />} />
       <Route path="Sponsorship" element={<Sponsorship />} />
+      <Route path="Team" element={<Team />} />
     </Route>
   )
 );

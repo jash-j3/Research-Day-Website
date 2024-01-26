@@ -1,41 +1,67 @@
 import React, { useState, useEffect } from "react";
 import { Carousel } from 'react-carousel-minimal';
+import p1 from "../src/assets/p1.JPG";
+//import p2 from "../src/assets/p2.JPG";
+import p3 from "../src/assets/p3.JPG";
+import p4 from "../src/assets/p4.JPG";
+import p5 from "../src/assets/p5.JPG";
+import p6 from "../src/assets/p6.JPG";
+import p7 from "../src/assets/p7.JPG";
+import p8 from "../src/assets/p8.JPG";
+import p9 from "../src/assets/p9.JPG";
+import p0 from "../src/assets/p0.JPG";
 import "./Events.css";
 const logo = require("../src/assets/logoiith.png");
+
+
+//const logo = require("../src/assets/logoiith.png");
+//const logo = require("../src/assets/logoiith.png");
+//const logo = require("../src/assets/logoiith.png");
+//const logo = require("../src/assets/logoiith.png");
+//const logo = require("../src/assets/logoiith.png");
+//const logo = require("../src/assets/logoiith.png");
+//const logo = require("../src/assets/logoiith.png");
+//const logo = require("../src/assets/logoiith.png");
+//const logo = require("../src/assets/logoiith.png");
+//const logo = require("../src/assets/logoiith.png");
+
 
 function Events() {
   const data = [
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
-      caption: "Expert Talk"
+      image: p1,
+      
     },
     {
-      image: "https://cdn.britannica.com/s:800x450,c:crop/35/204435-138-2F2B745A/Time-lapse-hyper-lapse-Isle-Skye-Scotland.jpg",
-      caption: "Seminar"
+      image: p0,
+      
     },
     {
-      image: "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
-      caption: "Expert Talk"
+      image: p3,
+      
     },
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
-      caption: "Expert Talk"
+      image: p4,
+    
     },
     {
-      image: "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
-      caption: "Expert Talk"
+      image: p5,
+      
     },
     {
-      image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
-      caption: "Expert Talk"
+      image: p6,
+  
     },
     {
-      image: "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
-      caption: "Expert Talk"
+      image: p7,
+      
     },
     {
-      image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
-      caption: "Expert Talk"
+      image: p8,
+      
+    },
+    {
+      image: p9
     }
   ];
 
@@ -49,7 +75,7 @@ function Events() {
   }
   return (
     <div className="eve-carou">
-      <h1>Events</h1>
+      <h5 className="hola">Glimpses from </h5> <h1 className="lmao">RSD ' 23</h1>
       <div style={{ textAlign: "center" }}>
         <div style={{
           padding: "0 50px"

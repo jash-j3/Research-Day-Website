@@ -36,6 +36,8 @@ function Navbar() {
                     <Link to="/Research-Day-Website/Schedule" className="itm" onClick={closeMenu}>Schedule</Link>
                     <Link to="/Research-Day-Website/Registration" className="itm" onClick={closeMenu}>Registration</Link>
                     <Link to="/Research-Day-Website/Sponsorship" className="itm" onClick={closeMenu}>Sponsorship</Link>
+                    <Link to="/Research-Day-Website/Team" className="itm" onClick={closeMenu}>Team</Link>
+                
                 </div>
                 <button className="hamburger" onClick={() => setIsNavExpanded(!isNavExpanded)}>
                     <img src={icon} className="icon" alt="hamburger-menu" />

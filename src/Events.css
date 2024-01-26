@@ -50,6 +50,23 @@
   }
   
  */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+.hola{
+  color:rgb(37, 55, 128)
+}
+
+
+.lmao{
+  color: rgb(245, 181, 64);
+  font-family: 'Style Script', cursive;
+}
+
+
+
+
 .eve-carou{
   text-align: center;
   margin: 40px 0;

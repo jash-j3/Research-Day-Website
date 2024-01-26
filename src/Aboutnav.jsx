@@ -4,9 +4,9 @@ import Footer from "./Footer";
 
 function Aboutnav() {
   return (
-    <div>
+    <div className="lloll">
       <div className="about">
-        <h1>Events</h1>
+        <h1 className="he">Events</h1>
         <div className="d1">
           <h1>1. Poster Presentation</h1>
           <h4 className="subhead">Abstract </h4>

@@ -1,9 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
+
+.lloll{
+    
+    background-image: url('../src/assets/bg-iith.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.he{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Style Script', cursive;
+    font-size: 80px;
+}
 
 .about{
+
     margin: 20px 50px 40px;
     font-family: Montserrat;
+    
 }
 
 
