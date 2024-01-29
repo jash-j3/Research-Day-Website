@@ -9,11 +9,11 @@ function Schedule() {
     <div>
       <div className="sched">
         <h1>
-            Coming Soon...
+            Day-1 Wednesday 28 February 
         </h1>
         </div>
 
-      {/*  <Footer /> */}
+      <Footer /> 
     </div>
   )
 }
