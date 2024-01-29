@@ -9,7 +9,7 @@ function Schedule() {
     <div>
       <div className="sched">
         <h1>
-            Day-1 Wednesday 28 February 
+            Coming Soon...
         </h1>
         </div>
 
