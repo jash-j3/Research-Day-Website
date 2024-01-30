@@ -1,10 +1,29 @@
 {
   "files": {
-    "main.css": "/Research-Day-Website/static/css/main.87b3013c.css",
-    "main.js": "/Research-Day-Website/static/js/main.02216711.js",
+    "main.css": "/Research-Day-Website/static/css/main.0c60402c.css",
+    "main.js": "/Research-Day-Website/static/js/main.3f1b587b.js",
+    "static/media/p5.JPG": "/Research-Day-Website/static/media/p5.c7390ab5bebc859382c9.JPG",
+    "static/media/p3.JPG": "/Research-Day-Website/static/media/p3.aff0218855c54811c9d5.JPG",
+    "static/media/p6.JPG": "/Research-Day-Website/static/media/p6.256afc4a0ecaf1711fbe.JPG",
+    "static/media/p1.JPG": "/Research-Day-Website/static/media/p1.b465930c517d8c56afa2.JPG",
+    "static/media/p9.JPG": "/Research-Day-Website/static/media/p9.47a7080debcaa49d9298.JPG",
+    "static/media/p7.JPG": "/Research-Day-Website/static/media/p7.52399ee43b0a5b13cc82.JPG",
+    "static/media/p0.JPG": "/Research-Day-Website/static/media/p0.ed8b378ae029566e7d0b.JPG",
+    "static/media/p4.JPG": "/Research-Day-Website/static/media/p4.b50eca81dce0d0fe3682.JPG",
+    "static/media/p8.JPG": "/Research-Day-Website/static/media/p8.3bfb586aa11facf409bc.JPG",
+    "static/media/rohanseth.JPG": "/Research-Day-Website/static/media/rohanseth.0744a637666f3f72b092.JPG",
+    "static/media/anaghak.jpg": "/Research-Day-Website/static/media/anaghak.591d2171229debf453a4.jpg",
+    "static/media/perugu.jpeg": "/Research-Day-Website/static/media/perugu.a0a9b72f224f6162c58b.jpeg",
+    "static/media/gaytri.jpeg": "/Research-Day-Website/static/media/gaytri.a797150d1d363e031eeb.jpeg",
     "static/media/mainimg.png": "/Research-Day-Website/static/media/mainimg.96fb514cf639ebe14bed.png",
     "static/media/khoj.png": "/Research-Day-Website/static/media/khoj.b5b7cd044373dceba484.png",
+    "static/media/nikitanimbark.jpeg": "/Research-Day-Website/static/media/nikitanimbark.3fedc3628ec1906d99ae.jpeg",
+    "static/media/shubhamchakr.jpeg": "/Research-Day-Website/static/media/shubhamchakr.e0757168e82f310d25c6.jpeg",
+    "static/media/amit.jpeg": "/Research-Day-Website/static/media/amit.ae91199005173f388ccf.jpeg",
     "static/media/bg-iith.jpeg": "/Research-Day-Website/static/media/bg-iith.bd376221ee22fcca6302.jpeg",
+    "static/media/pawankirar.jpeg": "/Research-Day-Website/static/media/pawankirar.13fcf57475a4b27ffcde.jpeg",
+    "static/media/jj.jpeg": "/Research-Day-Website/static/media/jj.63dcd95bfe1f0fd99428.jpeg",
+    "static/media/ak.jpeg": "/Research-Day-Website/static/media/ak.b69870eda7c3a7555dbf.jpeg",
     "static/media/c.png": "/Research-Day-Website/static/media/c.8b617a3d075b89d0e8ff.png",
     "static/media/k.png": "/Research-Day-Website/static/media/k.59744ad2e44323ce12c5.png",
     "static/media/b.png": "/Research-Day-Website/static/media/b.8bca44aeb3b5a78c0cf8.png",
@@ -15,14 +34,17 @@
     "static/media/a.png": "/Research-Day-Website/static/media/a.d97d7c39a067ea6f3202.png",
     "static/media/g.png": "/Research-Day-Website/static/media/g.546b930e561e032eebc7.png",
     "static/media/h.png": "/Research-Day-Website/static/media/h.44c6da6d09c512d691fa.png",
+    "static/media/sindhura.jpeg": "/Research-Day-Website/static/media/sindhura.842190015f01a19dade1.jpeg",
     "static/media/e.png": "/Research-Day-Website/static/media/e.7a6e385f4700e3b76d64.png",
+    "static/media/maheshthombare.jpeg": "/Research-Day-Website/static/media/maheshthombare.e5d732295946fa88743d.jpeg",
     "static/media/i.png": "/Research-Day-Website/static/media/i.69be7099fdea65f9be39.png",
+    "static/media/naveenkumar.jpeg": "/Research-Day-Website/static/media/naveenkumar.981f10fb38472e212132.jpeg",
     "index.html": "/Research-Day-Website/index.html",
-    "main.87b3013c.css.map": "/Research-Day-Website/static/css/main.87b3013c.css.map",
-    "main.02216711.js.map": "/Research-Day-Website/static/js/main.02216711.js.map"
+    "main.0c60402c.css.map": "/Research-Day-Website/static/css/main.0c60402c.css.map",
+    "main.3f1b587b.js.map": "/Research-Day-Website/static/js/main.3f1b587b.js.map"
   },
   "entrypoints": [
-    "static/css/main.87b3013c.css",
-    "static/js/main.02216711.js"
+    "static/css/main.0c60402c.css",
+    "static/js/main.3f1b587b.js"
   ]
 }
