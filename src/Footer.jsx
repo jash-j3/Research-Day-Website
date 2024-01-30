@@ -43,13 +43,13 @@ function Footer() {
         <div className="footer-menu">
           <ul className="f-menu">
             <li>
-            <Link to={"/Research-Day-Website/"}>Home</Link>
+            <Link to={"/"}>Home</Link>
             </li>
             <li>
-            <Link to={"/Research-Day-Website/Registration"}>Register</Link>
+            <Link to={"/Registration"}>Register</Link>
             </li>
             <li>
-              <Link to={"/Research-Day-Website/Aboutnav"}>Events</Link>
+              <Link to={"/Aboutnav"}>Events</Link>
             </li>
           </ul>
         </div>
