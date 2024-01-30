@@ -58,7 +58,7 @@ function Sponsorship() {
 
   return (
     
-    <div>
+    <div className="maindiv">
     <div className="sponsorship-container">
       <h2>Sponsorship Details</h2>
 

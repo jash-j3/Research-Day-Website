@@ -3,8 +3,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
 
+
+
+.maindiv{
+    background-image: linear-gradient(90deg, #f5f5f5 1%, #ffffff 35%, #ffffff 100%);
+}
 .sched{
     margin: 20px;
     padding: 20px;
     font-family: Montserrat;
+    text-align: center;
+    margin: 20px;
+    
 }
+
+
+
+  
+  h1 {
+    color: #333;
+  }
+  
+  .App {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    
+    align-items: center;
+  }
+
+  th{
+    color: rgb(255, 255, 255);
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ffffff;
+    text-align: left;
+    border-radius: 7.5px;
+    align-items: center;
+    
+  }
+  
+  th {
+    background-color: rgb(31, 31, 116);
+    background-image: linear-gradient(90deg, #060074 0%, #060074 35%, #060074 100%);
+  }
+  
+
+  @media (max-width: 600px) {
+    th, td {
+      font-size: 14px;
+    }
+  }
+  
+
+  .kh{
+    margin-top: 30px;
+  }
+
+  td:nth-child(even){
+    background-color: rgb(230, 197, 109);
+    background-image: linear-gradient(-90deg, #f0b616 0%, #f7f44e 35%, #fdad50 100%);
+  }
+
+  td:nth-child(odd){
+    background-color: rgb(248, 231, 177);
+    background-image: linear-gradient(90deg, #e2e608 0%, #f7f44e 35%, #fdad50 100%);
+  }
+
+  th:nth-child(even){
+    background-image: linear-gradient(90deg, #060074 0%, #060074 35%, #060074 100%);
+  }
