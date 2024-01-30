@@ -31,12 +31,12 @@ function Navbar() {
             <nav className="navbar">
                 <img src={logo} alt="iith-logo" className="iithlogo" />
                 <div className={`navtxt ${isNavExpanded ? "expanded" : ""}`}>
-                    <Link to="/Research-Day-Website" className="itm" onClick={closeMenu}>Home</Link>
-                    <Link to="/Research-Day-Website/Aboutnav" className="itm" onClick={closeMenu}>Events</Link>
-                    <Link to="/Research-Day-Website/Schedule" className="itm" onClick={closeMenu}>Schedule</Link>
-                    <Link to="/Research-Day-Website/Registration" className="itm" onClick={closeMenu}>Registration</Link>
-                    <Link to="/Research-Day-Website/Sponsorship" className="itm" onClick={closeMenu}>Sponsorship</Link>
-                    <Link to="/Research-Day-Website/Team" className="itm" onClick={closeMenu}>Team</Link>
+                    <Link to="/" className="itm" onClick={closeMenu}>Home</Link>
+                    <Link to="/Aboutnav" className="itm" onClick={closeMenu}>Events</Link>
+                    <Link to="/Schedule" className="itm" onClick={closeMenu}>Schedule</Link>
+                    <Link to="/Registration" className="itm" onClick={closeMenu}>Registration</Link>
+                    <Link to="/Sponsorship" className="itm" onClick={closeMenu}>Sponsorship</Link>
+                    <Link to="/Team" className="itm" onClick={closeMenu}>Team</Link>
                 
                 </div>
                 <button className="hamburger" onClick={() => setIsNavExpanded(!isNavExpanded)}>
