@@ -49,11 +49,11 @@ function Footer() {
             <Link to={"/Registration"}>Register</Link>
             </li>
             <li>
-              <Link to={"/Aboutnav"}>Events</Link>
+              <Link to={"/Competitions"}>Events</Link>
             </li>
           </ul>
         </div>
-        <p>Contributors Jash Jhatakia and Arin Kulkarni</p>
+        <p>Website Developed and Maintained by: <a href="mailto:cs22btech11028@iith.ac.in">Jash Jhatakia</a></p>
         <p>
           Copyright &copy; <a href="https://iith.dev">Lambda</a>{" "}
         </p>

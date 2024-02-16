@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Carousel } from 'react-carousel-minimal';
+import { Carousel } from "react-carousel-minimal";
 import p1 from "../src/assets/p1.JPG";
+import main from "./assets/main.jpg";
+
 //import p2 from "../src/assets/p2.JPG";
 import p3 from "../src/assets/p3.JPG";
 import p4 from "../src/assets/p4.JPG";
@@ -11,8 +13,6 @@ import p8 from "../src/assets/p8.JPG";
 import p9 from "../src/assets/p9.JPG";
 import p0 from "../src/assets/p0.JPG";
 import "./Events.css";
-const logo = require("../src/assets/logoiith.png");
-
 
 //const logo = require("../src/assets/logoiith.png");
 //const logo = require("../src/assets/logoiith.png");
@@ -24,73 +24,69 @@ const logo = require("../src/assets/logoiith.png");
 //const logo = require("../src/assets/logoiith.png");
 //const logo = require("../src/assets/logoiith.png");
 //const logo = require("../src/assets/logoiith.png");
-
 
 function Events() {
   const data = [
     {
+      image: main,
+    },
+    {
       image: p1,
-      
     },
     {
       image: p0,
-      
     },
     {
       image: p3,
-      
     },
     {
       image: p4,
-    
     },
     {
       image: p5,
-      
     },
     {
       image: p6,
-  
     },
     {
       image: p7,
-      
     },
     {
       image: p8,
-      
     },
     {
-      image: p9
-    }
+      image: p9,
+    },
   ];
 
   const captionStyle = {
-    fontSize: '2em',
-    fontWeight: 'bold',
-  }
-  const slideNumberStyle = {
-    fontSize: '20px',
-    fontWeight: 'bold',
-  }
+    fontSize: "2em",
+    fontWeight: "bold",
+    textAlign:"center"
+  };
+
   return (
     <div className="eve-carou">
-      <h5 className="hola">Glimpses from </h5> <h1 className="lmao">RSD ' 23</h1>
+      <h1>Research Scholars' Day</h1>
       <div style={{ textAlign: "center" }}>
-        <div style={{
-          padding: "0 50px"
-        }}>
+        <div
+          style={{
+            padding: "0 50px",
+            display:"flex",
+            "justifyContent":"center"
+          }}
+        >
           <Carousel
             data={data}
             time={2000}
-            width="850px"
-            height="500px"
+            width="70vw"
+            height="40vw"
             captionStyle={captionStyle}
             radius="10px"
             slideNumber={false}
             captionPosition="bottom"
             automatic={true}
-            dots={true}
+            dots={false}
             pauseIconColor="white"
             pauseIconSize="40px"
             slideBackgroundColor="darkgrey"
@@ -99,8 +95,9 @@ function Events() {
             thumbnailWidth="100px"
             style={{
               textAlign: "center",
-              maxWidth: "850px",
               margin: "30px auto",
+              minWidth:"70vw",
+              minHeight:""
             }}
           />
         </div>
@@ -108,7 +105,6 @@ function Events() {
     </div>
   );
 
-  
   // const eventsData = [
   //   {
   //     title: "Expert Talk",
@@ -145,7 +141,7 @@ function Events() {
   //   if (!isHovered) {
   //     interval = setInterval(() => {
   //       setCurrentEvent((prevEvent) => (prevEvent + 1) % eventsData.length);
-  //     }, 1500); 
+  //     }, 1500);
   //   }
 
   //   return () => clearInterval(interval);

@@ -1,11 +1,11 @@
 import React from "react";
 import "./Cover.css";
-const main = require("./assets/mainimg.png");
+const main = require("./assets/main.png");
 
 function Cover() {
   return (
     <div className="cover">
-      <div className="iithtxt">INDIAN INSTITUTE OF TECHNOLOGY HYDERABAD</div>
+      {/* <div className="iithtxt">INDIAN INSTITUTE OF TECHNOLOGY HYDERABAD</div>
       <img src={main} alt="main-khoj-img" className="mainimg" />
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ function Cover() {
           stroke-linecap="round"
           stroke-linejoin="round"
         />
-      </svg>
+      </svg> */}
     </div>
   );
 }

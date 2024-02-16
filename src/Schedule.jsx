@@ -11,22 +11,22 @@ const data1 = [
   },
 
   {
-    time: "10:00 to 10:30 AM",
+    time: "10:00 to 10:45 AM",
     topic: "Keynote Speaker"
   },
 
   {
-    time: "10:30 to 11:30 AM",
+    time: "10:45 to 11:00 AM",
+    topic: "High Tea"
+  },
+  
+  {
+    time: "11:00 to 12:00 AM",
     topic: "Panel discussion – Nurturing Brilliance: Research Futures at Home and Abroad"
   },
 
   {
-    time: "11:30 to 11:45 AM",
-    topic: "High Tea"
-  },
-
-  {
-    time: "11:45 to 01:00 PM",
+    time: "12:00 to 01:00 PM",
     topic: "Seminar: Unlocking Brilliance Part 1: The Art of Presenting Research in 1, 3, 5, and 10 Minutes"
   },
 
@@ -59,12 +59,12 @@ const data1 = [
 
 const data2 = [
   {
-    time: "09:30 to 10:00 AM",
+    time: "09:30 to 10:15 AM",
     topic: "Keynote Speaker"
   },
 
   {
-    time: "10:00 to 11:00 AM",
+    time: "10:15 to 11:00 AM",
     topic: "Panel discussion - Harmonizing Brilliance: Nurturing Mental Health and Well-being in Academia"
   },
 
