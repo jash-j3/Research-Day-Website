@@ -2,7 +2,9 @@ import React from "react";
 import "./Aboutnav.css";
 import Footer from "./Footer";
 import speaker1a from "./assets/logoiith.png";
-import speaker2a from "./assets/Faculty-Prof Vinayak Eswaran.jpeg" 
+import speaker2a from "./assets/Faculty-Prof Vinayak Eswaran.jpeg" ;
+import speaker3a from "./assets/Sastry_sir.jpeg";
+import speaker4a from "./assets/kiran_kumar_kuchi.jpg";
 
 function Expert() {
   return (
@@ -13,25 +15,25 @@ function Expert() {
           <div className="d1 discussion">
             <h1>1.Expert Talk 1 </h1>
             <h1>Date:28th-February-2024</h1>
-            <h1>Time: </h1>
+            <h1>Time:3:15 - 3:45 pm </h1>
             <div className="discussionmain">
               <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
-                [Speaker Name]
+              Prof. Vinayak Eswaran
               </h4>
               <div className="kk">
-                <p>Coming Soon...</p>
+                <p>Prof. IIT Hyderabad</p>
               </div>
             </div>
           </div>
           <div className="d3 discussion">
             <h1>2. Expert Talk 2</h1>
             <h1>Date : 29th-February-2024</h1>
-            <h1>Time: </h1>
+            <h1>Time:4:15 - 4:45 pm </h1>
             <div className="discussionmain">
-              <img src={speaker2a} alt="speaker1a" className="panelspeaker" />
+              <img src={speaker3a} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
-                Prof. Vinayak Eswaran
+                Prof. Garikapati Narahari Sastry 
               </h4>
               <div className="kk">
                 <p>Prof. IIT Hyderabad</p>
@@ -43,9 +45,9 @@ function Expert() {
           <div className="d1 discussion">
             <h1>Tale Of Innovation</h1>
             <div className="discussionmain">
-              <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
+              <img src={speaker4a} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
-                [Speaker Name]
+                Prof. Kiran Kumar Kuchi
               </h4>
               <div className="kk">
                 <p>Coming Soon...</p>
