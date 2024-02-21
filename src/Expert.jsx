@@ -17,7 +17,7 @@ function Expert() {
             <h1>Date:28th-February-2024</h1>
             <h1>Time:3:15 - 3:45 pm </h1>
             <div className="discussionmain">
-              <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
+              <img src={speaker2a} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
               Prof. Vinayak Eswaran
               </h4>
