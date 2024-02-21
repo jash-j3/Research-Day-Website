@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import coordinator from "./assets/maheshthombare.jpeg"
+import coordinator from "./assets/prakahr_gupta.jpeg"
 const logo = require("../src/assets/logoiith.png");
 // const bg = require("../src/assets/bg-iith.png");
 function About() {
