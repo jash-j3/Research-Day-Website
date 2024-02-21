@@ -1,7 +1,14 @@
 import React from "react";
 import "./Aboutnav.css";
 import Footer from "./Footer";
-import speaker1a from "./assets/logoiith.png";
+import khoj from "./assets/khoj.png";
+import speaker1a from "./assets/VG Sekaran.jpg";
+import speaker2 from "./assets/raji.jpeg";
+import speaker3 from "./assets/Kotaro.jpg";
+import speaker4 from "./assets/saptarishi.jpg";
+import speaker5 from "./assets/Mahati_Chittem.jpg";
+import speaker6 from "./assets/Usha-Chivukula.png";
+
 
 function Panel() {
   return (
@@ -10,80 +17,64 @@ function Panel() {
         <h1 className="he">Panel Discussion</h1>
         <div className="evegrid">
           <div className="d1 discussion">
-            <h1>1. Discussion a</h1>
+            <h1>1. Nurturing Brilliance</h1>
+            <h1>"Research Futures: Home & Abroad"</h1>
             <div className="discussionmain">
               <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
-                [Speaker Name]
+                Dr. V.G.Sekaran
               </h4>
               <div className="kk">
-                <p>Coming Soon...</p>
+                <p>Father of AGNI-5 Missile</p>
               </div>
             </div>
             <div className="discussionmain">
-              <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
+              <img src={speaker2} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
-                [Speaker Name]
+                Prof. P.Rajalaxmi
               </h4>
               <div className="kk">
-                <p>Coming Soon...</p>
+                <p>Director NMICPS TiHAN</p>
               </div>
             </div>
             <div className="discussionmain">
-              <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
+              <img src={speaker3} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
-                [Speaker Name]
+                Dr. Kotaro Kataoka
               </h4>
               <div className="kk">
-                <p>Coming Soon...</p>
-              </div>
-            </div>
-            <div className="discussionmain">
-              <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
-              <h4 className="subhead" id="a">
-                [Speaker Name]
-              </h4>
-              <div className="kk">
-                <p>Coming Soon...</p>
+                <p>Associate Prof.(CS Dept.)</p>
               </div>
             </div>
           </div>
           <div className="d3 discussion">
-            <h1>2. Discussion b</h1>
+            <h1>2. Harmonizing Brilliance</h1>
+            <h1>"Nurturing Mental Health & Well Being in Academia"</h1>
             <div className="discussionmain">
-              <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
+              <img src={speaker6} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
-                [Speaker Name]
+              Dr. Chivukula Usha
               </h4>
               <div className="kk">
-                <p>Coming Soon...</p>
+                <p>Centre for Health Psychology(University of Hyederabad) </p>
               </div>
             </div>
             <div className="discussionmain">
-              <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
+              <img src={speaker4} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
-                [Speaker Name]
+              Prof. Saptarshi Majumdar
               </h4>
               <div className="kk">
-                <p>Coming Soon...</p>
+                <p>Former Dean Academics</p>
               </div>
             </div>
             <div className="discussionmain">
-              <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
+              <img src={speaker5} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
-                [Speaker Name]
+                Dr. Mahati Chittem
               </h4>
               <div className="kk">
-                <p>Coming Soon...</p>
-              </div>
-            </div>
-            <div className="discussionmain">
-              <img src={speaker1a} alt="speaker1a" className="panelspeaker" />
-              <h4 className="subhead" id="a">
-                [Speaker Name]
-              </h4>
-              <div className="kk">
-                <p>Coming Soon...</p>
+                <p>Asso.Proffessor(Health & Medical Psychology)</p>
               </div>
             </div>
           </div>

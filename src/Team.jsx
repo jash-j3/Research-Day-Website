@@ -12,10 +12,13 @@ const pk = require("../src/assets/pawankirar.jpeg");
 const nk = require("../src/assets/naveenkumar.jpeg");
 const pg = require("../src/assets/perugu.jpeg");
 const gt = require("../src/assets/gaytri.jpeg");
+const sb = require("../src/assets/Sayani Barman.JPG");
+const jv = require("../src/assets/Vishnu.jpeg");
 
 const rs = require("../src/assets/rohanseth.JPG");
 const sc = require("../src/assets/shubhamchakr.jpeg");
 const ni = require("../src/assets/nikitanimbark.jpeg");
+const ikc = require("../src/assets/IKC.jpeg");
 
 const sd = require("../src/assets/sindhura.jpeg");
 const at = require("../src/assets/amit.jpeg");
@@ -51,7 +54,7 @@ function Team() {
 
 
           <div id="ind">
-            <img src={p} alt="iithlogo" className="img1" />
+            <img src={sb} alt="iithlogo" className="img1" />
             <h1 className="title">Sayani Barman</h1>
             <p id="subtitle">Sponsorship Head</p>
           </div>
@@ -98,7 +101,7 @@ function Team() {
           </div>
 
           <div id="ind">
-            <img src={p} alt="iithlogo" className="img1" />
+            <img src={ikc} alt="iithlogo" className="img1" />
             <h1 className="title">Ishsirjan Kaur Chandok</h1>
             <p id="subtitle">Anchoring Head</p>
           </div>
@@ -112,6 +115,18 @@ function Team() {
             <img src={rs} alt="iithlogo" className="img1" />
             <h1 className="title">Rohan Seth</h1>
             <p id="subtitle">Photography & Content Curation</p>
+          </div>
+
+          <div id="ind">
+            <img src={p} alt="iithlogo" className="img1" />
+            <h1 className="title">Ketan Warghat</h1>
+            <p id="subtitle">Publicity & Promotion</p>
+          </div>
+
+          <div id="ind">
+            <img src={jv} alt="iithlogo" className="img1" />
+            <h1 className="title">Dr.Jyothir Vishnu Bharadwaja Perugu</h1>
+            <p id="subtitle">Design & Event</p>
           </div>
 
           {/* <div id="ind">
