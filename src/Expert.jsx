@@ -3,7 +3,7 @@ import "./Aboutnav.css";
 import Footer from "./Footer";
 import speaker1a from "./assets/logoiith.png";
 import speaker2a from "./assets/Faculty-Prof Vinayak Eswaran.jpeg" ;
-import speaker3a from "./assets/Sastry_sir.jpeg";
+import speaker3a from "./assets/Sastry.jpg";
 import speaker4a from "./assets/kiran_kumar_kuchi.jpg";
 
 function Expert() {
