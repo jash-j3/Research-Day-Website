@@ -22,9 +22,9 @@ function Expert() {
               </h4>
               <div className="kk">
                 <p>Prof. IIT Hyderabad</p>
-                <h1>Date:28th-February-2024</h1>
-                <h1>Time:3:15 - 3:45 pm </h1>
               </div>
+               <h1>Date:28th-February-2024</h1>
+               <h1>Time:3:15 - 3:45 pm </h1>
             </div>
           </div>
           <div className="d3 discussion">
@@ -33,12 +33,12 @@ function Expert() {
               <img src={speaker3a} alt="speaker1a" className="panelspeaker" />
               <h4 className="subhead" id="a">
                 Prof. Garikapati Narahari Sastry 
-                <h1>Date : 29th-February-2024</h1>
-                <h1>Time:4:15 - 4:45 pm </h1>
               </h4>
               <div className="kk">
                 <p>Prof. IIT Hyderabad</p>
               </div>
+               <h1>Date : 29th-February-2024</h1>
+                <h1>Time:4:15 - 4:45 pm </h1>
             </div>
           </div>
         </div>
