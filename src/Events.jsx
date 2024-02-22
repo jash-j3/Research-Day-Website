@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-carousel-minimal";
 import p1 from "./assets/carousel/image (1).jpg";
-import main from "./assets/main.jpg";
+import main from "./assets/carousel/home.jpeg";
 import p3 from "./assets/carousel/image (3).jpg";
 import p4 from "./assets/carousel/image (4).jpg";
 import p5 from "./assets/carousel/image (5).jpg";
@@ -31,9 +31,6 @@ function Events() {
     },
     {
       image: p5,
-    },
-    {
-      image: p6,
     },
     {
       image: p7,
@@ -76,8 +73,8 @@ function Events() {
             dots={false}
             pauseIconColor="white"
             pauseIconSize="40px"
-            slideBackgroundColor="darkgrey"
-            slideImageFit="cover"
+            slideBackgroundColor="#151D38"
+            slideImageFit="contain"
             thumbnails={true}
             thumbnailWidth="100px"
             style={{
