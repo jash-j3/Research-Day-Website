@@ -30,7 +30,7 @@ function About() {
         <div className="message">
           <img className="profile-img" src={coordinator} alt="OC" />
           <div className="text-content">
-            <h2>Message from OC</h2>
+            <h2>Message from FIC-SA</h2>
             <p>
               {" "}
               Welcome to the much-anticipated Research Scholars' Day, an event that stands as a testament to
