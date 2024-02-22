@@ -30,107 +30,169 @@ function Team() {
         <h2 className="subone">Team</h2>
         <h1 className="lmao">RSD ' 2024</h1>
         <div className="box">
-          <img src={mt} alt="iithlogo" className="img1" />
+          <img
+            src={mt}
+            alt="iithlogo"
+            className="w-40 bg-cover rounded-full mx-auto h-40"
+          />
           <h1 className="title">Mahesh Ramesh Thombare</h1>
           <p id="subtitle"> Overall Coordinator</p>
         </div>
 
         <div className="grid-cont">
           <div id="ind">
-            <img src={pk} alt="iithlogo" className="img1" />
+            <img
+              src={pk}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Dr. Pawan Kirar</h1>
             <p id="subtitle">Finance Coordinator</p>
           </div>
           <div id="ind">
-            <img src={nk} alt="iithlogo" className="img1" />
+            <img
+              src={nk}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Naveen Kumar K R</h1>
             <p id="subtitle">Event Coordinator</p>
           </div>
           <div id="ind">
-            <img src={an} alt="iithlogo" className="img1" />
+            <img
+              src={an}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Anagha K</h1>
             <p id="subtitle">Design Coordinator</p>
           </div>
 
-
           <div id="ind">
-            <img src={sb} alt="iithlogo" className="img1" />
+            <img
+              src={sb}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Sayani Barman</h1>
             <p id="subtitle">Sponsorship Head</p>
           </div>
 
-
           <div id="ind">
-            <img src={p} alt="iithlogo" className="img1" />
+            <img
+              src={p}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Ankita Jain</h1>
             <p id="subtitle">Food Coordinator</p>
           </div>
 
           {/* <div id="ind">
-            <img src={pg} alt="iithlogo" className="img1" />
+            <img src={pg} alt="iithlogo" className="w-40 bg-cover rounded-full mx-auto h-40" />
             <h1 className="title"></h1>
             <p id="subtitle">Promotion & PR Team</p>
           </div> */}
 
           <div id="ind">
-            <img src={at} alt="iithlogo" className="img1" />
+            <img
+              src={at}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Amit Malla</h1>
             <p id="subtitle">Registration, Logistics Head</p>
           </div>
           <div id="ind">
-            <img src={sc} alt="iithlogo" className="img1" />
+            <img
+              src={sc}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Shubham Chakraborty</h1>
             <p id="subtitle">Sci - Art Head</p>
           </div>
 
           <div id="ind">
-            <img src={ni} alt="iithlogo" className="img1" />
+            <img
+              src={ni}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Nikita Nimbark</h1>
             <p id="subtitle">3 Minute Talk Head</p>
           </div>
 
           <div id="ind">
-            <img src={p} alt="iithlogo" className="img1" />
+            <img
+              src={p}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Yashwant Singh</h1>
             <p id="subtitle">Poster Presentation Head</p>
           </div>
           <div id="ind">
-            <img src={sd} alt="iithlogo" className="img1" />
+            <img
+              src={sd}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Bhagvathula Sindhura</h1>
             <p id="subtitle">Hospitality Head</p>
           </div>
 
           <div id="ind">
-            <img src={ikc} alt="iithlogo" className="img1" />
+            <img
+              src={ikc}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Ishsirjan Kaur Chandok</h1>
             <p id="subtitle">Anchoring Head</p>
           </div>
           <div id="ind">
-            <img src={gt} alt="iithlogo" className="img1" />
+            <img
+              src={gt}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Gayatri Aluwala</h1>
             <p id="subtitle">Photography & Content Curation</p>
           </div>
 
           <div id="ind">
-            <img src={rs} alt="iithlogo" className="img1" />
+            <img
+              src={rs}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Rohan Seth</h1>
             <p id="subtitle">Photography & Content Curation</p>
           </div>
 
           <div id="ind">
-            <img src={p} alt="iithlogo" className="img1" />
+            <img
+              src={p}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Ketan Warghat</h1>
             <p id="subtitle">Publicity & Promotion</p>
           </div>
 
           <div id="ind">
-            <img src={jv} alt="iithlogo" className="img1" />
+            <img
+              src={jv}
+              alt="iithlogo"
+              className="w-40 bg-cover rounded-full mx-auto h-40"
+            />
             <h1 className="title">Dr.Jyothir Vishnu Bharadwaja Perugu</h1>
             <p id="subtitle">Design & Event</p>
           </div>
 
           {/* <div id="ind">
-            <img src={p} alt="iithlogo" className="img1" />
+            <img src={p} alt="iithlogo" className="w-40 bg-cover rounded-full mx-auto h-40" />
             <h1 className="title">Anvesh Sangadi</h1>
             <p id="subtitle">Anchor & Moderator for Panel discussion</p>
           </div> */}
