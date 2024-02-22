@@ -2,12 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import Cover from "./Cover";
 import Navbar from "./Navbar";
-import About from "./About";
-import Events from "./Events";
-import Footer from "./Footer";
 import Sponsorship from "./Sponsorship";
 import Registration from "./Registration";
 import Aboutnav from "./Aboutnav";
@@ -34,7 +29,7 @@ const router = createBrowserRouter(
       <Route path="Talks" element={<Expert />} />
       <Route path="Schedule" element={<Schedule />} />
       <Route path="Registration" element={<Registration />} />
-      <Route path="Visitor" element={<Visitor/>} />
+      <Route path="Visitor" element={<Visitor />} />
       <Route path="Sponsorship" element={<Sponsorship />} />
       <Route path="Team" element={<Team />} />
     </Route>

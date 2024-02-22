@@ -1,29 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Carousel } from "react-carousel-minimal";
-import p1 from "../src/assets/p1.JPG";
+import p1 from "./assets/carousel/image (1).jpg";
 import main from "./assets/main.jpg";
-
-//import p2 from "../src/assets/p2.JPG";
-import p3 from "../src/assets/p3.JPG";
-import p4 from "../src/assets/p4.JPG";
-import p5 from "../src/assets/p5.JPG";
-import p6 from "../src/assets/p6.JPG";
-import p7 from "../src/assets/p7.JPG";
-import p8 from "../src/assets/p8.JPG";
-import p9 from "../src/assets/p9.JPG";
-import p0 from "../src/assets/p0.JPG";
+import p3 from "./assets/carousel/image (3).jpg";
+import p4 from "./assets/carousel/image (4).jpg";
+import p5 from "./assets/carousel/image (5).jpg";
+import p6 from "./assets/carousel/image (6).jpg";
+import p7 from "./assets/carousel/image (7).jpg";
+import p8 from "./assets/carousel/image (8).jpg";
+import p9 from "./assets/carousel/image (9).jpg";
+import p0 from "./assets/carousel/image (10).jpg";
 import "./Events.css";
-
-//const logo = require("../src/assets/logoiith.png");
-//const logo = require("../src/assets/logoiith.png");
-//const logo = require("../src/assets/logoiith.png");
-//const logo = require("../src/assets/logoiith.png");
-//const logo = require("../src/assets/logoiith.png");
-//const logo = require("../src/assets/logoiith.png");
-//const logo = require("../src/assets/logoiith.png");
-//const logo = require("../src/assets/logoiith.png");
-//const logo = require("../src/assets/logoiith.png");
-//const logo = require("../src/assets/logoiith.png");
 
 function Events() {
   const data = [
@@ -62,7 +49,7 @@ function Events() {
   const captionStyle = {
     fontSize: "2em",
     fontWeight: "bold",
-    textAlign:"center"
+    textAlign: "center",
   };
 
   return (
@@ -72,8 +59,8 @@ function Events() {
         <div
           style={{
             padding: "0 50px",
-            display:"flex",
-            "justifyContent":"center"
+            display: "flex",
+            justifyContent: "center",
           }}
         >
           <Carousel
@@ -96,8 +83,8 @@ function Events() {
             style={{
               textAlign: "center",
               margin: "30px auto",
-              minWidth:"70vw",
-              minHeight:""
+              minWidth: "70vw",
+              minHeight: "",
             }}
           />
         </div>
