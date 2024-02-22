@@ -123,7 +123,7 @@ const data2 = [
 function Schedule() {
   return (
     <div>
-      <div className="maindiv bg-black/10">
+      <div className="maindiv bg-blue-100/50">
         <div className="sched py-5">
           <h1 className="text-xl w-fit mx-auto rounded-md mb-5 p-4 bg-indigo-900 text-white ">
             Day 1: Wednesday - 28 February
