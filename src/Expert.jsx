@@ -52,9 +52,9 @@ function Expert() {
               </h4>
               <div className="kk">
                 <p>Professor IITH</p>
-                <h1>Date : 29th-February-2024</h1>
-                <h1>Time:11:15 - 11:45 am </h1>
               </div>
+              <h1>Date : 29th-February-2024</h1>
+              <h1>Time:11:15 - 11:45 am </h1>
             </div>
           </div>
           <div className="d3 discussion">
@@ -66,9 +66,9 @@ function Expert() {
               </h4>
               <div className="kk">
                 <p>COO Green PMU SEMI Private Ltd.</p>
-                <h1>Date : 29th-February-2024</h1>
-                <h1>Time:03:30 - 4:00 pm </h1>
               </div>
+              <h1>Date : 29th-February-2024</h1>
+              <h1>Time:03:30 - 4:00 pm </h1>
             </div>
           </div>
         </div>
