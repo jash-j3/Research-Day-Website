@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
 import coordinator from "./assets/prakahr_gupta.jpeg"
+import director from "./assets/bsmurthy.jpeg"
+import dean from "./assets/Venkatasubbaiah.jpeg"
+
 const logo = require("../src/assets/logoiith.png");
 // const bg = require("../src/assets/bg-iith.png");
 function About() {
@@ -8,22 +11,42 @@ function About() {
     <div className="about-container">
       <div className="black-bg">
         <div className="message">
-          <img className="profile-img" src={logo} alt="Director" />
+          <img className="profile-img" src={director} alt="Director" />
           <div className="text-content">
             <h2>Message from Director</h2>
             <p>
               {" "}
-              Coming Soon
+              Dear friends,
+It brings me immense pleasure to know that our research scholars are organising the 9 th edition of
+the Research Scholars’ Day-KHOJ 2024, on the February 28-29, 2024. I am happy to note that
+the primary objective behind this event is to spotlight the world-class research endeavours that
+are underway at IIT Hyderabad. This can foster better collaboration and networking within our
+IITH academic community, thereby enhancing the interdisciplinary research environment.
+I am sure that this provides our budding researchers a platform not only showcase their research
+achievements but also to develop a broader understanding of the diverse research landscape
+within the institute I anticipate that this exchange of knowledge and ideas will not only enrich
+individual research pursuits but also contribute to the overall academic excellence of IIT
+Hyderabad. 
+I extend my heartfelt best wishes and blessings to the entire community of PhD scholars at IIT
+Hyderabad for organizing KHOJ 2024. May your academic journeys be filled with success,
+growth, and the fulfilment of your aspirations. May you continue to excel in your pursuits and
+contribute significantly to the academic and research excellence of our esteemed institution.
+Wishing you all the very best in your endeavours.
+
+…… Prof. B.S. Murty
             </p>
           </div>
         </div>
         <div className="message">
-          <img className="profile-img" src={logo} alt="Dean" />
+          <img className="profile-img" src={dean} alt="Dean" />
           <div className="text-content">
             <h2>Message from Dean</h2>
             <p>
               {" "}
-              Coming Soon...
+              Research scholars’ day is an initiative by the research scholars of IIT Hyderabad to make research more accessible. It is a platform for scholars to collaborate with the prominent personalities of their field by sharing their knowledge through short talks and poster presentations. This event is an effort by the scholars of IITH to bring academic research to the real-world. Scholars get an opportunity to showcase their research work and interact with prominent scientists.
+Poster presentation and 3-minute talk are the two main events for the scholars. These events are ways to present the research work in limited words. My best wishes to the team for the success of this event."
+Prof. Venkata Subbaiah
+....Dean Students
             </p>
           </div>
         </div>
