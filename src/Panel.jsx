@@ -70,7 +70,7 @@ function Panel() {
   return (
     <div className="lloll">
       <div className="pb-10 font-Montserrat">
-        <h1 className="py-10 text-center text-white font-cursive text-4xl md:text-6xl">
+        <h1 className="he py-10 text-center text-white font-cursive text-4xl md:text-6xl">
           Panel Discussion
         </h1>
         <div className=" flex flex-col md:flex-row justify-around gap-10">
