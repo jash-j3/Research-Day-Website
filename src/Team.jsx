@@ -22,7 +22,7 @@ const ikc = require("../src/assets/IKC.jpeg");
 
 const sd = require("../src/assets/sindhura.jpeg");
 const at = require("../src/assets/amit.jpeg");
-
+const pa = require("../src/assets/Priyanka Aggarwal.jpeg");
 function Team() {
   return (
     <div>
@@ -80,11 +80,11 @@ function Team() {
 
           <div id="ind">
             <img
-              src={p}
+              src={pa}
               alt="iithlogo"
               className="w-40 bg-cover rounded-full mx-auto h-40"
             />
-            <h1 className="title">Ankita Jain</h1>
+            <h1 className="title">Priyanka Aggarwal</h1>
             <p id="subtitle">Food Coordinator</p>
           </div>
 
