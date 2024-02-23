@@ -79,6 +79,8 @@ Once again, welcome to the Research Scholars' Day. May this event inspire, enlig
 sense of camaraderie among all participants. Together, let us propel the frontiers of knowledge and
 make a lasting impact on the world through our shared passion for research.
             </p>
+            <h1>Dr. Prakhar Gupta</h1>
+            <h1>FIC SA</h1>
           </div>
         </div>
       </div>
