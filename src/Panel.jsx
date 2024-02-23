@@ -56,7 +56,7 @@ function Panel() {
               Dr. Chivukula Usha
               </h4>
               <div className="kk">
-                <p>Centre for Health Psychology(University of Hyederabad) </p>
+                <p>Centre for Health Psychology(University of Hyderabad) </p>
               </div>
             </div>
             <div className="discussionmain">
@@ -65,6 +65,7 @@ function Panel() {
               Prof. Saptarshi Majumdar
               </h4>
               <div className="kk">
+                <p>Prof. IITH(Chemical Engineering)</p>
                 <p>Former Dean Academics</p>
               </div>
             </div>
