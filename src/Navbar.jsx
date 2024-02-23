@@ -44,19 +44,31 @@ function Navbar() {
             onMouseEnter={() => setIsHoveringHome(true)}
             onMouseLeave={() => setIsHoveringHome(false)}
           >
-            Events <FaCaretDown size={20} />
+            <div className="flex flex-row gap-1 items-center justify-center">
+              {" "}
+              Events <FaCaretDown size={20} />
+            </div>
+
             {isHoveringHome && (
               <div className="popup-menu">
-                <Link to="/Panel" className="popup-item" onClick={closeMenu}>
+                <Link to="/Panel" className="popup-item " onClick={closeMenu}>
                   Panel Discussion
                 </Link>
-                <Link to="/Seminars" className="popup-item" onClick={closeMenu}>
-                Seminars
+                <Link
+                  to="/Seminars"
+                  className="popup-item "
+                  onClick={closeMenu}
+                >
+                  Seminars
                 </Link>
-                <Link to="/Competitions" className="popup-item" onClick={closeMenu}>
+                <Link
+                  to="/Competitions"
+                  className="popup-item "
+                  onClick={closeMenu}
+                >
                   Competition
                 </Link>
-                <Link to="/Talks" className="popup-item" onClick={closeMenu}>
+                <Link to="/Talks" className="popup-item " onClick={closeMenu}>
                   Expert Talks
                 </Link>
               </div>
@@ -70,14 +82,21 @@ function Navbar() {
             onMouseEnter={() => setIsHoveringReg(true)}
             onMouseLeave={() => setIsHoveringReg(false)}
           >
-            Registration <FaCaretDown size={20} />
+            <div className="flex flex-row gap-1 items-center justify-center">
+              {" "}
+              Registration <FaCaretDown size={20} />
+            </div>
             {isHoveringReg && (
               <div className="popup-menu">
-                <Link to="/Registration" className="popup-item" onClick={closeMenu}>
+                <Link
+                  to="/Registration"
+                  className="popup-item "
+                  onClick={closeMenu}
+                >
                   IITH Students
                 </Link>
-                <Link to="/Visitor" className="popup-item" onClick={closeMenu}>
-                Visitor (All)
+                <Link to="/Visitor" className="popup-item " onClick={closeMenu}>
+                  Visitor (All)
                 </Link>
               </div>
             )}
