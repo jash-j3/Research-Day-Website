@@ -79,14 +79,14 @@ function Panel() {
               className="bg-white/90 text-center w-[90%] mx-auto md:w-2/5 rounded-md py-2 px-4"
               key={index}
             >
-              <p className="font-bold">{discussion.title}</p>
-              <p className="italic">{discussion.subtitle}</p>
+              <p className="font-bold text-[1.2rem]">{discussion.title}</p>
+              <p className="italic text-[1rem] mb-10">{discussion.subtitle}</p>
               {discussion.speakers.map((speaker, idx) => (
                 <div className="" key={idx}>
-                  <h4 className=" font-semibold underline mt-4 text-blue-600">
+                  <h4 className="bg-gray-200 font-semibold text-blue-600 my-2 py-2 px-4 rounded ">
                     {speaker.name}
                   </h4>
-                  <div className=" bg-gray-200 my-2 py-2 px-4 rounded">
+                  <div className="font-semibold mt-4  ">
                     <p>{speaker.description}</p>
                   </div>
                   <div className="flex flex-row gap-5 mt-5 items-center ">
