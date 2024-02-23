@@ -45,8 +45,8 @@ Wishing you all the very best in your endeavours.
               {" "}
               Research scholars’ day is an initiative by the research scholars of IIT Hyderabad to make research more accessible. It is a platform for scholars to collaborate with the prominent personalities of their field by sharing their knowledge through short talks and poster presentations. This event is an effort by the scholars of IITH to bring academic research to the real-world. Scholars get an opportunity to showcase their research work and interact with prominent scientists.
 Poster presentation and 3-minute talk are the two main events for the scholars. These events are ways to present the research work in limited words. My best wishes to the team for the success of this event."
-Prof. Venkata Subbaiah
-....Dean Students
+<h1>Prof. Venkata Subbaiah</h1>
+<h1>....Dean Students</h1>
             </p>
           </div>
         </div>
