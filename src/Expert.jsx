@@ -17,6 +17,7 @@ function Expert() {
             <h1>1.Expert Talk 1 </h1>
             <div className="discussionmain">
               <img src={speaker2a} alt="speaker1a" className="panelspeaker" />
+              The esteemed professor from IIT Hyderabad, whose lectures have enlightened both faculties and students, is retiring by the end of this semester. Don't miss the opportunity to attend his expert talk at KHOJ24 on 28th Feb from 03:15 to 03:45 PM. Prof. Vinayak Eswaran
               <h4 className="subhead" id="a">
               <h1>Prof. Vinayak Eswaran</h1>
               </h4>
