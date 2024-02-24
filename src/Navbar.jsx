@@ -52,9 +52,13 @@ function Navbar() {
             {isHoveringHome && (
               <div className="popup-menu">
                <Link to="/Keynote" className="popup-item " onClick={closeMenu}>
-                  Keynote Speakers
+                  Keynote
                 </Link>
-                <Link to="/Panel" className="popup-item " onClick={closeMenu}>
+                <Link 
+                to="/Panel" 
+                className="popup-item " 
+                onClick={closeMenu}
+                >
                   Panel Discussion
                 </Link>
                 <Link
