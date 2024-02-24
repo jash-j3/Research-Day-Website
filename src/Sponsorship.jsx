@@ -88,7 +88,7 @@ function Sponsorship() {
             <img src={WriteM} alt="d" />
             <h1>Bronze Sponsorship</h1>
             <img src={Boffin} alt="e" />
-            <h1>Bronze SPonsorship</h1>
+            <h1>Bronze Sponsorship</h1>
             <img src={Amrutha} alt="f" />
           </div>
       </div>
