@@ -80,15 +80,15 @@ function Sponsorship() {
         <div className="slide">
           <h1>GOLD Sponsorship</h1>
             <img src={Bronkhorst} alt="a" />
-            <h1></h1>
+            <h1>GOLD Sponsorship</h1>
             <img src={Dwarka} alt="b" />
-            <h1></h1>
+            <h1>Silver Sponsorship</h1>
             <img src={Arctic} alt="c" />
-            <h1></h1>
+            <h1>Silver Sponsorship</h1>
             <img src={WriteM} alt="d" />
-            <h1></h1>
+            <h1>Bronze Sponsorship</h1>
             <img src={Boffin} alt="e" />
-            <h1></h1>
+            <h1>Bronze SPonsorship</h1>
             <img src={Amrutha} alt="f" />
           </div>
       </div>
