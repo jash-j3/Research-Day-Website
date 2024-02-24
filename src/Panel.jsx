@@ -13,27 +13,28 @@ function Panel() {
     {
       title: "Nurturing Brilliance",
       subtitle: "Research Futures: Home & Abroad",
+      extra : "Timing : 11:00 - 12:00 am",
       speakers: [
         {
           image: speaker1a,
           name: "Dr. V.G.Sekaran",
           description: "Father of AGNI-5 Missile",
           extra:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Amet, nihil assumenda accusantium voluptatibus consectetur",
+            "Dr V.G. Sekaran, Distinguished Scientist He is an eminent Missile Scientist and the Chief Designer of the Long Range Ballistic Missile System AGNI 5.As Director, Advanced Systems Laboratory, played a key role in envisioning and evolving the Strategies for Long Range Missiles and led the design and development of AGNI series of Missile Systems.His pioneering contributions and research in the area of Solid Propellant Rocket Motors is now the main thrust and the backbone of Long Range Missile System.",
         },
         {
           image: speaker2,
           name: "Prof. P.Rajalaxmi",
           description: "Director NMICPS TiHAN",
           extra:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Amet, nihil assumenda accusantium voluptatibus consectetur",
+            "Dr. P Rajalakshmi, is a Professor in the Department of Electrical Engineering, CYIENT Chair Professor in Future Communications, Project Director of Technology Innovation Hub on Autonomous Navigations (TiHAN) at IIT Hyderabad. She has been handling R&D projects funded by industry and Government of India in these areas.she has filed 15 patents, 2 copyrights, published over 40 Journals and 135 conference peer-reviewed papers.",
         },
         {
           image: speaker3,
           name: "Dr. Kotaro Kataoka",
           description: "Associate Prof.(CS Dept.)",
           extra:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Amet, nihil assumenda accusantium voluptatibus consectetur",
+            "Kotaro Kataoka is an Associate Professor at Department of Computer Science and Engineering, Indian Institute of Technology Hyderabad as well as a Senior Researcher at Keio Research Institute at SFC. He has been a member of Asian Internet Interconnection Initiatives (AI3) project and Widely Integrated Distributed Environment (WIDE) project for research on Satellite Internet, Post-Disaster Networking and etc. He also served as an Expert in JICA FRIENDSHIP Project for facilitating Indo-Japan collaborations between 2012 and 2019.",
         },
       ],
     },
