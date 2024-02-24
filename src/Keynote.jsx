@@ -19,7 +19,7 @@ function Keynote() {
               <h1>Dr. Nagarajan Vedachalam</h1>
               </h4>
               <div className="kk">
-                <p>Prof. IIT Hyderabad</p>
+                <p>Padma Shri Awardee</p>
               </div>
                <h1>Date:28th-February-2024</h1>
                <h1>Time: 9:30 - 10:30  am </h1>

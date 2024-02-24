@@ -1,6 +1,12 @@
 import React from "react";
 import "./Sponsorship.css";
 import Footer from "./Footer";
+import Amrutha from "./assets/Amrutha Systems and Solutions Pvt Ltd.jpeg"
+import Arctic from "./assets/Arctic Aircon Pvt Ltd Product list.jpeg"
+import Bronkhorst from "./assets/Bronkhorst Instrumentation India Pvt Ltd.jpg"
+import Dwarka from "./assets/Dwaraka Scientifics.jpg"
+import WriteM from "./assets/WriteM.png"
+import Boffin from "./assets/Boffin Butler Pvt Ltd.png"
 const l1 = require("../src/assets/a.png");
 const l2 = require("../src/assets/b.png");
 const l3 = require("../src/assets/c.png");
@@ -71,34 +77,22 @@ function Sponsorship() {
       <div className="sponsorship-container">
       <div className="newsp">
         <h1>New Sponsors</h1>
-        <p>Coming Soon...</p>
+        <div className="slide">
+          <h1>GOLD Sponsorship</h1>
+            <img src={Bronkhorst} alt="a" />
+            <h1></h1>
+            <img src={Dwarka} alt="b" />
+            <h1></h1>
+            <img src={Arctic} alt="c" />
+            <h1></h1>
+            <img src={WriteM} alt="d" />
+            <h1></h1>
+            <img src={Boffin} alt="e" />
+            <h1></h1>
+            <img src={Amrutha} alt="f" />
+          </div>
       </div>
-        <h2>Sponsorship Details</h2>
-
-        {sponsorshipSlabs.map((slab) => (
-          <div key={slab.type} className={`sponsorship-slab ${slab.type}`}>
-            <h3>{slab.title}</h3>
-            <p>{slab.description}</p>
-          </div>
-        ))}
-
-
         <div className="logos">
-          <h1>Previous Sponsors</h1>
-          <div className="slide">
-            <img src={l1} alt="a" />
-            <img src={l2} alt="b" />
-            <img src={l3} alt="c" />
-            <img src={l4} alt="d" />
-            <img src={l5} alt="e" />
-            <img src={l6} alt="f" />
-            <img src={l7} alt="g" />
-            <img src={l8} alt="h" />
-            <img src={l9} alt="i" />
-            <img src={l0} alt="j" />
-            <img src={l11} alt="k" />
-            <img src={l12} alt="l" />
-          </div>
         </div>
         {/*}  <Footer/> */}
 
