@@ -47,7 +47,7 @@ function Panel() {
           name: "Dr. Chivukula Usha",
           description: "Centre for Health Psychology(University of Hyderabad)",
           extra:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Amet, nihil assumenda accusantium voluptatibus consectetur",
+            "Coming Soon....",
         },
         {
           image: speaker4,
@@ -55,14 +55,14 @@ function Panel() {
           description:
             "Prof. IITH(Chemical Engineering), Former Dean Academics",
           extra:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Amet, nihil assumenda accusantium voluptatibus consectetur",
+            "Coming Soon........,
         },
         {
           image: speaker5,
           name: "Dr. Mahati Chittem",
           description: "Asso.Proffessor(Health & Medical Psychology)",
           extra:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Amet, nihil assumenda accusantium voluptatibus consectetur",
+            "Coming Soon.....",
         },
       ],
     },
