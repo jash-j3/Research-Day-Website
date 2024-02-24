@@ -22,7 +22,7 @@ function Keynote() {
                 <p>Padma Shri Awardee</p>
               </div>
                <h1>Date:28th-February-2024</h1>
-               <h1>Time: 9:30 - 10:30  am </h1>
+               <h1>Time: 10:00 - 10:45  am </h1>
             </div>
           </div>
           <div className="d3 discussion">
@@ -36,7 +36,7 @@ function Keynote() {
                 <p>Vice Chancellor University of Hyderabad</p>
               </div>
                <h1>Date : 29th-February-2024</h1>
-                <h1>Time: 9:30 - 10:30 am </h1>
+                <h1>Time: 9:30 - 10:15 am </h1>
             </div>
           </div>
         </div>
