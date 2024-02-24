@@ -18,6 +18,7 @@ import {
 import Seminars from "./Seminars";
 import Expert from "./Expert";
 import Visitor from "./Visitor";
+import Keynote from "./Keynote";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
       <Route path="Visitor" element={<Visitor />} />
       <Route path="Sponsorship" element={<Sponsorship />} />
       <Route path="Team" element={<Team />} />
+      <Route path="Keynote" element={<Keynote />} />
     </Route>
   )
 );
