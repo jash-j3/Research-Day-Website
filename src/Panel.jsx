@@ -47,7 +47,7 @@ function Panel() {
           name: "Dr. Chivukula Usha",
           description: "Centre for Health Psychology(University of Hyderabad)",
           extra:
-            "Coming Soon....",
+            "Dr. Chivukula Usha, an Assistant Professor at the Centre for Health Psychology, University of Hyderabad, specializes in Behavioral Cardiology, Child & Adolescent Health, and Community Health Psychology. With a rich background in Special Education, she has contributed significantly as a Psychological Counselling Therapist and a Project Manager for the Centre for Child Protection. Her research, reflected in numerous publications, explores diverse topics from risky decision-making to the psychosocial risks of primary hypertension, showcasing her multidimensional expertise.",
         },
         {
           image: speaker4,
@@ -55,14 +55,14 @@ function Panel() {
           description:
             "Prof. IITH(Chemical Engineering), Former Dean Academics",
           extra:
-            "Coming Soon........,
+            "Professor Saptarshi Majumdar is a distinguished academician and Senate member at the Indian Institute of Technology Hyderabad, stands as a beacon in the Department of Chemical Engineering. Renowned for his expertise in Multiscale Modelling, Bio-materials Design, and more, his commitment to advancing knowledge resonates through excellence and innovative research. Beyond the classroom, his active engagement in academic and administrative initiatives reflects a dedication to fostering an inclusive and cutting-edge academic environment at IITH."
         },
         {
           image: speaker5,
           name: "Dr. Mahati Chittem",
           description: "Asso.Proffessor(Health & Medical Psychology)",
           extra:
-            "Coming Soon.....",
+            "Dr. Mahati Chittem, an Associate Professor of Health & Medical Psychology at the Indian Institute of Technology Hyderabad, boasts expertise in psycho-oncology, adherence, health behaviors, and relationship science. Her research delves into intricate aspects such as patient-caregiver-physician relationships, end-of-life decisions, and the cultural dimensions influencing health-related behaviors. With an office in B 413, her academic pursuits contribute to a nuanced understanding of psychological factors in health and medical contexts.",
         },
       ],
     },
