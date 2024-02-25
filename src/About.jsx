@@ -66,8 +66,7 @@ collaborations that will undoubtedly shape the future of our respective fields. 
 research topics and projects on display today reflects the richness of our academic community. From
 groundbreaking discoveries to pioneering methodologies, the Research Scholars' Day serves as a
 platform to showcase the intellectual acumen and dedication that drive our scholars to push the
-
-boundaries of knowledge. We extend our gratitude to all the scholars who have contributed to
+boundaries of knowledge. We extend our gratitude to all the students who have contributed to
 making this event possible. Your dedication to advancing research and sharing insights with the
 broader community is truly commendable. To our esteemed guests, thank you for joining us on this
 intellectual odyssey. Your presence adds immense value to the dialogue and strengthens the bonds
