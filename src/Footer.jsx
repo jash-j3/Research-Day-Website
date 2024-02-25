@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer-content">
-        <h3>Research Scholar's Day</h3>
+        <h3>Research Scholars' Day</h3>
         <p>
           Made with <span class="heart">&#10084;</span> by Lambda
         </p>
