@@ -61,8 +61,9 @@ Poster presentation and 3-minute talk are the two main events for the scholars. 
               To our esteemed guests, thank you very much for joining us on this intellectual odyssey; your presence adds immense value to the event.I encourage everyone to actively participate in the two-day event filled with engaging presentations, stimulating discussions, and invaluable networking opportunities. Let us collectively embrace the spirit of collaboration and exchange research ideas that have the power to transform our understanding.
               Finally, I extend heartfelt congratulations to my team, students who have worked tirelessly, day and night, to ensure the grand success of this event.
               Once again, a warm welcome to the Research Scholars' Day.
+              <h1></h1>
               <h1>Dr. Prakhar Gupta</h1>
-             <h1>FIC SA</h1>
+             <h1>FIC KHOJ-24</h1>
             </p>
           </div>
         </div>
