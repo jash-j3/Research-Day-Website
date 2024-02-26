@@ -1,5 +1,4 @@
 import React from "react";
-import khoj from "./assets/khoj.png";
 import speaker1a from "./assets/VG Sekaran.jpg";
 import speaker2 from "./assets/raji.jpeg";
 import speaker3 from "./assets/Kotaro.jpg";
@@ -13,7 +12,7 @@ function Panel() {
     {
       title: "Nurturing Brilliance",
       subtitle: "Research Futures: Home & Abroad",
-      description : "Timing : 11:00 - 12:00 am",
+      description: "Timing : 11:00 - 12:00 am",
       speakers: [
         {
           image: speaker1a,
@@ -55,7 +54,7 @@ function Panel() {
           description:
             "Prof. IITH(Chemical Engineering), Former Dean Academics",
           extra:
-            "Professor Saptarshi Majumdar is a distinguished academician and Senate member at the Indian Institute of Technology Hyderabad, stands as a beacon in the Department of Chemical Engineering. Renowned for his expertise in Multiscale Modelling, Bio-materials Design, and more, his commitment to advancing knowledge resonates through excellence and innovative research. Beyond the classroom, his active engagement in academic and administrative initiatives reflects a dedication to fostering an inclusive and cutting-edge academic environment at IITH."
+            "Professor Saptarshi Majumdar is a distinguished academician and Senate member at the Indian Institute of Technology Hyderabad, stands as a beacon in the Department of Chemical Engineering. Renowned for his expertise in Multiscale Modelling, Bio-materials Design, and more, his commitment to advancing knowledge resonates through excellence and innovative research. Beyond the classroom, his active engagement in academic and administrative initiatives reflects a dedication to fostering an inclusive and cutting-edge academic environment at IITH.",
         },
         {
           image: speaker5,

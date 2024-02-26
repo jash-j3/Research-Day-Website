@@ -13,27 +13,27 @@ function Footer() {
         </p>
         <ul className="socials">
           <li>
-            <a href="#">
+            <a href="/">
               <FaGoogle size={30} color="#4285F4" />
             </a>
           </li>
           {/* <li>
-            <a href="#">
+            <a href="/">
               <FaInstagram size={30} color="#C13584" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <FaInstagram size={30} color="#C13584" />
             </a>
           </li> */}
           <li>
-            <a href="#">
+            <a href="/">
               <FaInstagram size={30} color="#C13584" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <FaLinkedin size={30} color="#0077B5" />
             </a>
           </li>
@@ -43,17 +43,20 @@ function Footer() {
         <div className="footer-menu">
           <ul className="f-menu">
             <li>
-            <Link to={"/"}>Home</Link>
+              <Link to={"/"}>Home</Link>
             </li>
             <li>
-            <Link to={"/Registration"}>Register</Link>
+              <Link to={"/Registration"}>Register</Link>
             </li>
             <li>
               <Link to={"/Competitions"}>Events</Link>
             </li>
           </ul>
         </div>
-        <p>Website Developed and Maintained by: <a href="mailto:cs22btech11028@iith.ac.in">Jash Jhatakia</a></p>
+        <p>
+          Website Developed and Maintained by:{" "}
+          <a href="mailto:cs22btech11028@iith.ac.in">Jash Jhatakia</a>
+        </p>
         <p>
           Copyright &copy; <a href="https://iith.dev">Lambda</a>{" "}
         </p>

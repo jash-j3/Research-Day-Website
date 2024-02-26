@@ -5,7 +5,6 @@ import main from "./assets/carousel/home.jpeg";
 import p3 from "./assets/carousel/image (3).jpg";
 import p4 from "./assets/carousel/image (4).jpg";
 import p5 from "./assets/carousel/image (5).jpg";
-import p6 from "./assets/carousel/image (6).jpg";
 import p7 from "./assets/carousel/image (7).jpg";
 import p8 from "./assets/carousel/image (8).jpg";
 import p9 from "./assets/carousel/image (9).jpg";

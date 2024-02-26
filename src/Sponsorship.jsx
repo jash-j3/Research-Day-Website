@@ -1,54 +1,54 @@
 import React from "react";
 import "./Sponsorship.css";
 import Footer from "./Footer";
-import Amrutha from "./assets/Amrutha Systems and Solutions Pvt Ltd.jpeg"
-import Arctic from "./assets/Arctic Aircon Pvt Ltd Product list.jpeg"
-import Bronkhorst from "./assets/Bronkhorst Instrumentation India Pvt Ltd.jpg"
-import Dwarka from "./assets/Dwaraka Scientifics.jpg"
-import WriteM from "./assets/WriteM.png"
-import Boffin from "./assets/Boffin Butler Pvt Ltd.png"
-import Parcs from "./assets/parcs.jpeg"
-const l1 = require("../src/assets/a.png");
-const l2 = require("../src/assets/b.png");
-const l3 = require("../src/assets/c.png");
-const l4 = require("../src/assets/d.png");
-const l5 = require("../src/assets/e.png");
-const l6 = require("../src/assets/f.png");
-const l7 = require("../src/assets/g.png");
-const l8 = require("../src/assets/h.png");
-const l9 = require("../src/assets/i.png");
-const l0 = require("../src/assets/j.png");
-const l11 = require("../src/assets/k.png");
-const l12 = require("../src/assets/l.png");
+import Amrutha from "./assets/Amrutha Systems and Solutions Pvt Ltd.jpeg";
+import Arctic from "./assets/Arctic Aircon Pvt Ltd Product list.jpeg";
+import Bronkhorst from "./assets/Bronkhorst Instrumentation India Pvt Ltd.jpg";
+import Dwarka from "./assets/Dwaraka Scientifics.jpg";
+import WriteM from "./assets/WriteM.png";
+import Boffin from "./assets/Boffin Butler Pvt Ltd.png";
+import Parcs from "./assets/parcs.jpeg";
+// const l1 = require("../src/assets/a.png");
+// const l2 = require("../src/assets/b.png");
+// const l3 = require("../src/assets/c.png");
+// const l4 = require("../src/assets/d.png");
+// const l5 = require("../src/assets/e.png");
+// const l6 = require("../src/assets/f.png");
+// const l7 = require("../src/assets/g.png");
+// const l8 = require("../src/assets/h.png");
+// const l9 = require("../src/assets/i.png");
+// const l0 = require("../src/assets/j.png");
+// const l11 = require("../src/assets/k.png");
+// const l12 = require("../src/assets/l.png");
 
 function Sponsorship() {
-  const sponsorshipSlabs = [
-    {
-      type: "diamond",
-      title: "Diamond Sponsor",
-      description: "Slab range : 3,00,000 INR +",
-    },
-    {
-      type: "platinum",
-      title: "Platinum Sponsor",
-      description: "Slab range : 2,00,000 INR +",
-    },
-    {
-      type: "gold",
-      title: "Gold Sponsor",
-      description: "Slab range : 1,00,000 INR +",
-    },
-    {
-      type: "silver",
-      title: "Silver Sponsor",
-      description: "Slab range : 50,000 INR +",
-    },
-    {
-      type: "bronze",
-      title: "Bronze Sponsor",
-      description: "Slab range : 25,000 INR +",
-    },
-  ];
+  // const sponsorshipSlabs = [
+  //   {
+  //     type: "diamond",
+  //     title: "Diamond Sponsor",
+  //     description: "Slab range : 3,00,000 INR +",
+  //   },
+  //   {
+  //     type: "platinum",
+  //     title: "Platinum Sponsor",
+  //     description: "Slab range : 2,00,000 INR +",
+  //   },
+  //   {
+  //     type: "gold",
+  //     title: "Gold Sponsor",
+  //     description: "Slab range : 1,00,000 INR +",
+  //   },
+  //   {
+  //     type: "silver",
+  //     title: "Silver Sponsor",
+  //     description: "Slab range : 50,000 INR +",
+  //   },
+  //   {
+  //     type: "bronze",
+  //     title: "Bronze Sponsor",
+  //     description: "Slab range : 25,000 INR +",
+  //   },
+  // ];
 
   const details = [
     {
@@ -76,12 +76,12 @@ function Sponsorship() {
   return (
     <div className="maindiv">
       <div className="sponsorship-container">
-      <div className="newsp">
-        <h1>Sponsors</h1>
-        <h1></h1>
-        <h1></h1>
-        <div>
-          <h1>Title Sponsorship</h1>
+        <div className="newsp">
+          <h1>Sponsors</h1>
+          <div></div>
+          <div></div>
+          <div>
+            <h1>Title Sponsorship</h1>
             <img src={Dwarka} alt="a" />
             <h1>GOLD Sponsorship</h1>
             <img src={Bronkhorst} alt="b" />
@@ -95,11 +95,9 @@ function Sponsorship() {
             <img src={Amrutha} alt="f" />
             <h1>Bronze Sponsorship</h1>
             <img src={Boffin} alt="f" />
-
           </div>
-      </div>
-        <div className="logos">
         </div>
+        <div className="logos"></div>
         {/*}  <Footer/> */}
 
         {/*    let copy_logo = document.querySelector(".slide").cloneNode(true);

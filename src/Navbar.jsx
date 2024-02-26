@@ -23,12 +23,12 @@ function Navbar() {
       closeMenu();
     }
   };
-
   useEffect(() => {
     document.addEventListener("click", handleOutsideClick);
     return () => {
       document.removeEventListener("click", handleOutsideClick);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isNavExpanded]);
 
   return (
@@ -51,14 +51,10 @@ function Navbar() {
 
             {isHoveringHome && (
               <div className="popup-menu">
-               <Link to="/Keynote" className="popup-item " onClick={closeMenu}>
+                <Link to="/Keynote" className="popup-item " onClick={closeMenu}>
                   Keynote
                 </Link>
-                <Link 
-                to="/Panel" 
-                className="popup-item " 
-                onClick={closeMenu}
-                >
+                <Link to="/Panel" className="popup-item " onClick={closeMenu}>
                   Panel Discussion
                 </Link>
                 <Link

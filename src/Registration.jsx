@@ -5,6 +5,7 @@ function Registration() {
   return (
     <div>
       <iframe
+        title="register google form"
         src="https://docs.google.com/forms/d/e/1FAIpQLSd-d6EalvEKCkoCOtAJRZ0D2Nn60SMVp7lSVrBzJ9eMHTauFg/viewform?embedded=true"
         width="100%"
         height="3400"

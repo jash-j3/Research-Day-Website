@@ -10,7 +10,6 @@ const mt = require("../src/assets/maheshthombare.jpeg");
 const an = require("../src/assets/anaghak.jpg");
 const pk = require("../src/assets/pawankirar.jpeg");
 const nk = require("../src/assets/naveenkumar.jpeg");
-const pg = require("../src/assets/perugu.jpeg");
 const gt = require("../src/assets/gaytri.jpeg");
 const sb = require("../src/assets/Sayani Barman.JPG");
 const jv = require("../src/assets/Vishnu.jpeg");
