@@ -58,15 +58,15 @@ Poster presentation and 3-minute talk are the two main events for the scholars. 
               {" "}
               Welcome to the highly awaited Research Scholars' Day, an event that serves as a testament to the unwavering commitment and intellectual prowess of the vibrant research community of IIT Hyderabad. On behalf of the student organizing committee, it brings me immense pleasure to extend a warm welcome to all participants and attendees.
 
-This day stands as a celebration of knowledge, innovation, and the relentless pursuit of excellence that defines our research at IIT Hyderabad. As we gather here, we embark on a journey to explore the frontiers of discovery, exchange ideas, and foster meaningful collaborations that will undoubtedly shape the future of our respective fields. The diverse array of research topics and projects on display today reflects the richness of our academic community.
+              This day stands as a celebration of knowledge, innovation, and the relentless pursuit of excellence that defines our research at IIT Hyderabad. As we gather here, we embark on a journey to explore the frontiers of discovery, exchange ideas, and foster meaningful collaborations that will undoubtedly shape the future of our respective fields. The diverse array of research topics and projects on display today reflects the richness of our academic community.
 
-To our esteemed guests, thank you very much for joining us on this intellectual odyssey; your presence adds immense value to the event.
+              To our esteemed guests, thank you very much for joining us on this intellectual odyssey; your presence adds immense value to the event.
 
-I encourage everyone to actively participate in the two-day event filled with engaging presentations, stimulating discussions, and invaluable networking opportunities. Let us collectively embrace the spirit of collaboration and exchange research ideas that have the power to transform our understanding.
+              I encourage everyone to actively participate in the two-day event filled with engaging presentations, stimulating discussions, and invaluable networking opportunities. Let us collectively embrace the spirit of collaboration and exchange research ideas that have the power to transform our understanding.
 
-Finally, I extend heartfelt congratulations to my team. students who have worked tirelessly, day and night, to ensure the grand success of this event.
+              Finally, I extend heartfelt congratulations to my team. students who have worked tirelessly, day and night, to ensure the grand success of this event.
 
-Once again, a warm welcome to the Research Scholars' Day.
+              Once again, a warm welcome to the Research Scholars' Day.
             </p>
             <h1>Dr. Prakhar Gupta</h1>
             <h1>FIC SA</h1>
