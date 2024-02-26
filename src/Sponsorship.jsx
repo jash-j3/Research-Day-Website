@@ -7,6 +7,7 @@ import Bronkhorst from "./assets/Bronkhorst Instrumentation India Pvt Ltd.jpg"
 import Dwarka from "./assets/Dwaraka Scientifics.jpg"
 import WriteM from "./assets/WriteM.png"
 import Boffin from "./assets/Boffin Butler Pvt Ltd.png"
+import Parcs from "./assets/parcs.jpeg"
 const l1 = require("../src/assets/a.png");
 const l2 = require("../src/assets/b.png");
 const l3 = require("../src/assets/c.png");
@@ -76,20 +77,25 @@ function Sponsorship() {
     <div className="maindiv">
       <div className="sponsorship-container">
       <div className="newsp">
-        <h1>New Sponsors</h1>
-        <div className="slide">
-          <h1>GOLD Sponsorship</h1>
-            <img src={Bronkhorst} alt="a" />
+        <h1>Sponsors</h1>
+        <h1></h1>
+        <h1></h1>
+        <div>
+          <h1>Title Sponsorship</h1>
+            <img src={Dwarka} alt="a" />
             <h1>GOLD Sponsorship</h1>
-            <img src={Dwarka} alt="b" />
+            <img src={Bronkhorst} alt="b" />
             <h1>Silver Sponsorship</h1>
             <img src={Arctic} alt="c" />
             <h1>Silver Sponsorship</h1>
             <img src={WriteM} alt="d" />
-            <h1>Bronze Sponsorship</h1>
-            <img src={Boffin} alt="e" />
+            <h1>Silver Sponsorship</h1>
+            <img src={Parcs} alt="e" />
             <h1>Bronze Sponsorship</h1>
             <img src={Amrutha} alt="f" />
+            <h1>Bronze Sponsorship</h1>
+            <img src={Boffin} alt="f" />
+
           </div>
       </div>
         <div className="logos">

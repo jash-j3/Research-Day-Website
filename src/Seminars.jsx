@@ -31,7 +31,7 @@ function Seminars() {
                 <h1>"The Art of Presenting Research in 1,3,5,10 mins"</h1>
                 <h1></h1>
                   <img src={seminar2} className="img1"/>
-                  Guest Speaker : Dr. Shantanu Chakrabarty
+                  Guest Speaker : Dr. Shantanu Chakrabarti
                   <h1>Presenting years of work in 10-20 minutes is our forte, but condensing it into 1-3 minutes for industry or interviews is an art. Join us with Dr. Shantanu Chakraborty to master this skill</h1>
               </h4>
             </div>

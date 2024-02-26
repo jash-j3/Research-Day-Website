@@ -2,7 +2,7 @@ import React from "react";
 import "./Aboutnav.css";
 import Footer from "./Footer";
 import speaker1a from "./assets/logoiith.png";
-import speakera from "./assets/vedachalam.jpeg";
+import speakera from "./assets/Vedachalam.jpeg";
 import speakerb from "./assets/bj-rao.png";
 
 
@@ -19,7 +19,7 @@ function Keynote() {
               <h1>Dr. Nagarajan Vedachalam</h1>
               </h4>
               <div className="kk">
-                <p>Padma Shri Awardee</p>
+                <p>Former Director LPSC(ISRO)</p>
               </div>
                <h1>Date:28th-February-2024</h1>
                <h1>Time: 10:00 - 10:45  am </h1>

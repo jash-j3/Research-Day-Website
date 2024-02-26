@@ -9,7 +9,7 @@ const data1 = [
 
   {
     time: "10:00 to 10:45 AM",
-    topic: "Keynote Speaker",
+    topic: "Keynote Speaker: Dr. Nagarajan Vedachalam",
   },
 
   {
