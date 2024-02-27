@@ -8,6 +8,8 @@ import Dwarka from "./assets/Dwaraka Scientifics.jpg";
 import WriteM from "./assets/WriteM.png";
 import Boffin from "./assets/Boffin Butler Pvt Ltd.png";
 import Parcs from "./assets/parcs.jpeg";
+import Carbon from "./assets/Carbon Lab (1).jpeg";
+import SBES from "./assets/SBES.jpeg";
 // const l1 = require("../src/assets/a.png");
 // const l2 = require("../src/assets/b.png");
 // const l3 = require("../src/assets/c.png");
@@ -85,8 +87,12 @@ function Sponsorship() {
             <img src={Dwarka} alt="a" />
             <h1>GOLD Sponsorship</h1>
             <img src={Bronkhorst} alt="b" />
+            <h1>GOLD Sponsorship</h1>
+            <img src={Carbon} alt="b" />
             <h1>Silver Sponsorship</h1>
             <img src={Arctic} alt="c" />
+            <h1>Silver Sponsorship</h1>
+            <img src={SBES} alt="d" />
             <h1>Silver Sponsorship</h1>
             <img src={WriteM} alt="d" />
             <h1>Silver Sponsorship</h1>

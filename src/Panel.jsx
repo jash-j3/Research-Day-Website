@@ -12,7 +12,6 @@ function Panel() {
     {
       title: "Nurturing Brilliance",
       subtitle: "Research Futures: Home & Abroad",
-      description: "Timing : 11:00 - 12:00 am",
       speakers: [
         {
           image: speaker1a,

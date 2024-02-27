@@ -26,7 +26,7 @@ const data1 = [
   {
     time: "12:00 to 01:00 PM",
     topic:
-      "Seminar: Unlocking Brilliance Part 1: The Art of Presenting Research in 1, 3, 5, and 10 Minutes",
+      "Seminar: Mastering the Art of Scientific Writing with AI Elegance",
   },
 
   {
@@ -40,17 +40,17 @@ const data1 = [
   },
 
   {
-    time: "03:15 to 03:45 PM",
-    topic: "Expert Talk by IITH Professor",
+    time: "03:15 to 04:00 PM",
+    topic: "Expert Talk by IITH Professor: Prof. Vinayak Eswaran",
   },
 
   {
-    time: "03:45 to 04:00 PM",
+    time: "04:00 to 04:15 PM",
     topic: "High Tea",
   },
 
   {
-    time: "04:00 to 06:00 PM",
+    time: "04:15 to 06:00 PM",
     topic: "Radiating Brilliance Part 2: Poster Presentation",
   },
 ];
@@ -58,7 +58,7 @@ const data1 = [
 const data2 = [
   {
     time: "09:30 to 10:15 AM",
-    topic: "Keynote Speaker",
+    topic: "Keynote Speaker: Prof. B.J. Rao",
   },
 
   {
@@ -68,19 +68,19 @@ const data2 = [
   },
 
   {
-    time: "11:00 to 11:30 AM",
-    topic: "Tale of Innovation: Talk by IITH Professor and Startup Founder",
-  },
-
-  {
-    time: "11:30 to 11:45 AM",
+    time: "11:00 to 11:15 AM",
     topic: "High Tea",
   },
 
   {
-    time: "11:45 to 01:00 PM",
+    time: "11:15 to 11:45 AM",
+    topic: "Tale of Innovation: Talk by IITH Professor and Startup Founder: Prof. Renu John",
+  },
+
+  {
+    time: "12:00 to 01:00 PM",
     topic:
-      "Radiating Brilliance Part 3: Three-Minute Talk on Thesis/Research to General Audience",
+      "Seminar: Unlocking Brilliance Part 2:Unlocking Brilliance Part 1: The Art of Presenting Research in 1, 3, 5, and 10 Minutes :Prof. Shantanu Chakrabarti",
   },
 
   {
@@ -90,13 +90,12 @@ const data2 = [
 
   {
     time: "02:00 to 03:15 PM",
-    topic:
-      "Seminar: Unlocking Brilliance Part 2: Mastering the Art of Scientific Writing with AI Elegance",
+    topic:" Radiating Brilliance Part 3: Three-Minute Talk on Thesis/Research to General Audience",
   },
 
   {
     time: "03:30 to 04:00 PM",
-    topic: "Journey of Entrepreneurship – A Talk by IIT Hyderabad alumnus",
+    topic: "Journey of Entrepreneurship – A Talk by IIT Hyderabad alumnus:Dr. R Sai Chandra",
   },
 
   {
@@ -106,7 +105,7 @@ const data2 = [
 
   {
     time: "04:15 to 04:45 PM",
-    topic: "Expert talk by IITH Professor",
+    topic: "Expert talk by IITH Professor: Prof. Garikapati N. Sastry",
   },
 
   {
