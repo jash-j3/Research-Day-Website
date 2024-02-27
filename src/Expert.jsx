@@ -23,7 +23,7 @@ function Expert() {
                 <p>Prof. IIT Hyderabad</p>
               </div>
               <h1>Date:28th-February-2024</h1>
-              <h1>Time:3:15 - 3:45 pm </h1>
+              <h1>Time:3:15 - 4:00 pm </h1>
             </div>
           </div>
           <div className="d3 discussion">
