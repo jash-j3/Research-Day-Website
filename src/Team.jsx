@@ -18,6 +18,7 @@ const rs = require("../src/assets/rohanseth.JPG");
 const sc = require("../src/assets/shubhamchakr.jpeg");
 const ni = require("../src/assets/nikitanimbark.jpeg");
 const ikc = require("../src/assets/IKC.jpeg");
+const kw = require("../src/assets/ketan.jpeg");
 
 const sd = require("../src/assets/sindhura.jpeg");
 const at = require("../src/assets/amit.jpeg");
@@ -173,7 +174,7 @@ function Team() {
 
           <div id="ind">
             <img
-              src={p}
+              src={kw}
               alt="iithlogo"
               className="w-40 bg-cover rounded-full mx-auto h-40"
             />
