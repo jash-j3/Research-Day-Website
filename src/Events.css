@@ -1,0 +1,76 @@
+/* .events-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px auto;
+  }
+
+  .aa{
+    display: inline;
+    
+  }
+  
+  .event {
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #f5e4e4;
+    border-radius: 10px;
+    width: 50%;
+  }
+  
+  .event-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .event h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .event p {
+    color: #666;
+  }
+  
+
+  .event:not(:last-child)::after {
+    
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    background-color: #ccc;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+  }
+  
+ */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+.hola{
+  color:rgb(37, 55, 128)
+}
+
+
+.lmao{
+  color: rgb(245, 181, 64);
+  font-family: 'Style Script', cursive;
+}
+
+
+
+
+.eve-carou{
+  text-align: center;
+  margin: 40px 0;
+  font-family: 'Montserrat';
+  color: rgb(23, 30, 58);
+  font-size: 1.4rem;
+}

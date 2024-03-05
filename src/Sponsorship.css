@@ -1,0 +1,138 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.newsp{
+  margin: 40px 0;
+}
+
+
+.sponsorship-container{
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: auto;
+  font-family: Montserrat;
+}
+
+.sponsorship-slab{
+  position: relative;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  perspective: 1000px;
+  transition: transform 0.0s;
+  margin-top: 15px;
+}
+
+.sponsorship-slab:hover{
+  transform: rotateY(10deg);
+}
+
+.gold{
+  background-color: rgb(255, 251, 212); 
+}
+
+.silver{
+  background-color: rgb(255, 241, 212); 
+}
+
+.bronze{
+  background-color: rgb(255, 251, 212);
+}
+
+.diamond{
+  background-color: rgb(255, 241, 212);
+}
+
+.platinum{
+  background-color: rgb(255, 235, 212);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes slide{
+  from{
+    transform: translateX(+100%);
+  }
+
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.logos{
+  overflow: hidden;
+  padding: 60px 0;
+  background: rgb(255, 255, 255);
+  white-space: nowrap;
+  margin-top: 2px;
+  
+}
+
+.logos:hover .slide{
+  animation-play-state: paused;
+}
+
+.slide{
+  display: inline-block;
+  white-space: nowrap;
+  animation: 29s slide infinite linear
+}
+
+.slide img{
+  height: 90px;
+  margin: 0 40px;
+
+}
+
+
+.details{
+  position: relative;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  perspective: 1000px;
+  transition: transform 0.0s;
+  margin-top: 15px;
+}
+
+.a{
+  background-color: rgb(253, 251, 248);
+}
+
+.b{
+  background-color: rgb(253, 251, 248);
+}
+
+.c{
+  background-color: rgb(253, 251, 248);
+}
+
+#a{
+  max-width: auto;
+}
+
+
+
+
+#arin{
+  
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: auto;
+}
+
+
+.kkk{
+  width: 100%;
+  margin-top: 20px;
+}
