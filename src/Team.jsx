@@ -130,7 +130,7 @@ function Team() {
               alt="iithlogo"
               className="w-40 bg-cover rounded-full mx-auto h-40"
             />
-            <h1 className="title">Yashwant Singh</h1>
+            <h1 className="title">Yashwanth Singh</h1>
             <p id="subtitle">Poster Presentation Head</p>
           </div>
           <div id="ind">
